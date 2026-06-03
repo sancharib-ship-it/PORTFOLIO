@@ -60,6 +60,11 @@ const certifications = [
     platform: "Anthropic",
     credential: "skziop2pcuhx",
   },
+  {
+    course: "McKinsey Forward Program",
+    platform: "McKinsey Academy",
+    credential: "—",
+  },
 ];
 
 export const Credentials = () => {
