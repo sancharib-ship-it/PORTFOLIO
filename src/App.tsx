@@ -10,6 +10,7 @@ import WorkExperience from "./pages/WorkExperience.tsx";
 import CursorTrail from "./components/CursorTrail";
 import AmbientBackground from "./components/AmbientBackground";
 import { ScrollToTop } from "./components/ScrollToTop";
+import { ScrollProgress } from "./components/ScrollProgress";
 
 const queryClient = new QueryClient();
 
@@ -20,6 +21,7 @@ const App = () => (
       <Sonner />
       <CursorTrail />
       <AmbientBackground />
+      <ScrollProgress />
       <BrowserRouter basename={import.meta.env.BASE_URL}>
         <Routes>
           <Route path="/" element={<Index />} />
