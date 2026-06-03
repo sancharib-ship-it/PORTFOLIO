@@ -8,22 +8,6 @@ interface ProjectGroup {
   projects: Project[];
 }
 
-const placeholder = (
-  header: string,
-  shortCategory: string,
-  index: number,
-): Project => ({
-  title: `${shortCategory} Project ${index}`,
-  category: header,
-  year: "2025",
-  description:
-    "Add a 1–2 line description of the project, the problem, and your role.",
-  metric: { value: "—", label: "Result" },
-  tags: ["Tag 1", "Tag 2"],
-  details:
-    "Add the case-study summary: context, what you did, and the outcome you drove.",
-});
-
 const realBy = (slug: string): Project => {
   const p = projectDetails.find((d) => d.slug === slug);
   if (!p) throw new Error(`Missing project: ${slug}`);
@@ -52,9 +36,6 @@ const groups: ProjectGroup[] = [
       realBy("creative-testing-os"),
       realBy("kpis-for-dummies"),
       realBy("rc-celta-seat-alert"),
-      ...Array.from({ length: 1 }, (_, i) =>
-        placeholder("AI-Developed Marketing", "AI Marketing", i + 5),
-      ),
     ],
   },
   {
@@ -73,9 +54,6 @@ const groups: ProjectGroup[] = [
     projects: [
       realBy("starbucks-spain-ecosystem"),
       realBy("practo-care-companion"),
-      ...Array.from({ length: 3 }, (_, i) =>
-        placeholder("Marketing Strategy", "Strategy", i + 3),
-      ),
     ],
   },
   {
