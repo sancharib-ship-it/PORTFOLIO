@@ -3,7 +3,6 @@ const links = [
   { label: "Work", hash: "work" },
   { label: "Tools", hash: "tools" },
   { label: "Credentials", hash: "credentials" },
-  { label: "Contact", hash: "contact" },
 ];
 
 // Build hrefs relative to the deployment base path so they work both locally
