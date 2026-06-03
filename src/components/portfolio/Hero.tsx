@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export const Hero = () => {
   return (
     <section className="relative overflow-hidden section-padding pt-24 md:pt-32">
@@ -45,9 +47,9 @@ export const Hero = () => {
           <a href="#contact" className="btn-ghost">
             Get in touch
           </a>
-          <a href="/work-experience" className="btn-ghost">
+          <Link to="/work-experience" className="btn-ghost">
             Work Experience
-          </a>
+          </Link>
           <a
             href="https://moreofsancharee.substack.com/"
             target="_blank"
