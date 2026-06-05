@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { Instagram } from "lucide-react";
 
 export const Hero = () => {
   return (
@@ -57,6 +58,15 @@ export const Hero = () => {
             className="btn-ghost"
           >
             Read My Marketing Blog
+          </a>
+          <a
+            href="https://www.instagram.com/hiresancharee/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-ghost gap-2"
+          >
+            <Instagram className="h-4 w-4" />
+            Why Hire Sanchari
           </a>
         </div>
       </div>
