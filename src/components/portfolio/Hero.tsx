@@ -37,7 +37,7 @@ export const Hero = () => {
         </h1>
 
         <p className="mt-8 max-w-2xl text-lg leading-relaxed text-muted-foreground md:text-xl">
-          Growth & Marketing Strategist connecting messaging, funnels, and data to drive real outcomes for ambitious teams.
+          Give me a message, a funnel, and some data, and I'll find the leaks, fix the story, and turn curious visitors into committed customers.
         </p>
 
         <div className="mt-12 flex flex-wrap items-center gap-3">
