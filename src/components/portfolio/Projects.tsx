@@ -1,4 +1,5 @@
-import { ProjectCard, type Project } from "./ProjectCard";
+import { type Project } from "./ProjectCard";
+import { ProjectCarousel } from "./ProjectCarousel";
 import { projectDetails } from "@/data/projects";
 
 interface ProjectGroup {
@@ -118,11 +119,7 @@ export const Projects = () => {
                 </p>
               </div>
 
-              <div className="grid grid-cols-1 gap-7 md:grid-cols-2 md:gap-8">
-                {group.projects.map((p) => (
-                  <ProjectCard key={p.title} project={p} />
-                ))}
-              </div>
+              <ProjectCarousel projects={group.projects} />
             </div>
           ))}
         </div>

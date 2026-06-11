@@ -13,11 +13,21 @@ export interface Project {
   cardImage?: string;
 }
 
-export const ProjectCard = ({ project }: { project: Project }) => {
+export const ProjectCard = ({
+  project,
+  square = false,
+}: {
+  project: Project;
+  square?: boolean;
+}) => {
   return (
     <article className="group relative flex flex-col overflow-hidden rounded-xl border border-border bg-card shadow-card transition-all duration-300 ease-smooth hover:-translate-y-1.5 hover:scale-[1.01] hover:border-foreground/20 hover:shadow-card-hover">
       {/* Visual */}
-      <div className="relative aspect-[16/10] w-full overflow-hidden bg-muted">
+      <div
+        className={`relative w-full overflow-hidden bg-muted ${
+          square ? "aspect-square" : "aspect-[16/10]"
+        }`}
+      >
         {project.cardImage ? (
           <img
             src={project.cardImage}
