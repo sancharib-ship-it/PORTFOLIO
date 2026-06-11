@@ -60,12 +60,13 @@ export const About = () => {
 
         <div className="md:col-span-7">
           <p className="text-lg leading-relaxed text-secondary-foreground/80 md:text-xl">
-            I'm Sanchari, a growth and marketing strategist based in Madrid. I work
-            at the intersection of growth, content, and systems — connecting
-            messaging, funnels, and data to drive real outcomes. At 21, I led
-            cross-functional changes that improved conversion and drove ~€360K in
-            revenue. I think in systems, not channels, and I'm currently exploring
-            AI-driven workflows to scale growth with leverage.
+            I'm Sanchari — based in Madrid, fluent in growth and marketing, and
+            slightly obsessed with why people do or don't act. I care less about
+            chasing channels and more about how the whole thing fits together: the
+            message, the funnel, the data, the moment someone finally clicks. At 21,
+            that thinking helped me lead the changes behind ~€360K in revenue and a
+            real lift in conversion. Lately I've been exploring AI-driven workflows
+            to see how far a small team can actually go.
           </p>
 
           <div className="mt-12">
