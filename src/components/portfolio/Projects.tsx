@@ -40,15 +40,6 @@ const groups: ProjectGroup[] = [
     ],
   },
   {
-    id: "branding",
-    header: "Branding Ideations",
-    blurb: "Brand concepts, positioning, and visual direction explorations.",
-    projects: [
-      realBy("judwa-socks"),
-      realBy("strike-matchbox"),
-    ],
-  },
-  {
     id: "strategy",
     header: "Marketing Strategy ",
     blurb: "Strategy breakdowns, frameworks, and end-to-end thinking.",
@@ -65,6 +56,15 @@ const groups: ProjectGroup[] = [
       realBy("instagram"),
       realBy("linkedin"),
       realBy("facebook"),
+    ],
+  },
+  {
+    id: "branding",
+    header: "Branding Ideations",
+    blurb: "Brand concepts, positioning, and visual direction explorations.",
+    projects: [
+      realBy("judwa-socks"),
+      realBy("strike-matchbox"),
     ],
   },
   {
