@@ -72,7 +72,7 @@ export const projectDetails: ProjectDetailData[] = [
   // ============ AI-DEVELOPED MARKETING ============
   {
     slug: "samsung-galaxy-kpi",
-    title: "Samsung Galaxy S · KPI System & Dashboard",
+    title: "Samsung Galaxy S: KPI System & Dashboard",
     category: "AI-Developed Marketing",
     year: "2025",
     description:
@@ -116,7 +116,7 @@ export const projectDetails: ProjectDetailData[] = [
   },
   {
     slug: "creative-testing-os",
-    title: "Creative Testing OS · Meta & TikTok",
+    title: "Creative Testing OS: Meta & TikTok",
     category: "AI-Developed Marketing",
     year: "2025",
     description:
@@ -166,7 +166,7 @@ export const projectDetails: ProjectDetailData[] = [
   },
   {
     slug: "kpis-for-dummies",
-    title: "KPIs for Dummies · Interactive Study Portal",
+    title: "KPIs for Dummies: Interactive Study Portal",
     category: "AI-Developed Marketing",
     year: "2025",
     description:
@@ -227,7 +227,7 @@ export const projectDetails: ProjectDetailData[] = [
   },
   {
     slug: "rc-celta-seat-alert",
-    title: "RC Celta · Seat Availability Alert Platform",
+    title: "RC Celta: Seat Availability Alert Platform",
     category: "AI-Developed Marketing",
     year: "2026",
     description:
@@ -394,7 +394,7 @@ export const projectDetails: ProjectDetailData[] = [
   // ============ BRANDING IDEATIONS ============
   {
     slug: "judwa-socks",
-    title: "JŪDWĀ — Indian Craft Sock Brand",
+    title: "JŪDWĀ: Indian Craft Sock Brand",
     category: "Branding Ideations",
     year: "2025",
     description:
@@ -524,7 +524,7 @@ export const projectDetails: ProjectDetailData[] = [
   },
   {
     slug: "strike-matchbox",
-    title: "STRIKE — Matchbox Under Surveillance",
+    title: "STRIKE: Matchbox Under Surveillance",
     category: "Branding Ideations",
     year: "2025",
     description:
@@ -662,7 +662,7 @@ export const projectDetails: ProjectDetailData[] = [
   // ============ MARKETING STRATEGY ============
   {
     slug: "starbucks-spain-ecosystem",
-    title: "Starbucks Spain — App to Ecosystem",
+    title: "Starbucks Spain: App to Ecosystem",
     category: "Marketing Strategy",
     year: "2025",
     description:
@@ -787,7 +787,7 @@ export const projectDetails: ProjectDetailData[] = [
   },
   {
     slug: "practo-care-companion",
-    title: "Practo — From Booking Tool to Care Companion",
+    title: "Practo: From Booking Tool to Care Companion",
     category: "Marketing Strategy",
     year: "2025",
     description:
@@ -1135,7 +1135,7 @@ export const projectDetails: ProjectDetailData[] = [
   // ===== Instagram sub-projects =====
   {
     slug: "instagram-on-camera",
-    title: "Instagram Reels — On-Camera Content",
+    title: "Instagram Reels: On-Camera Content",
     category: "Social Media · Instagram",
     year: "2024–2025",
     description:
@@ -1176,7 +1176,7 @@ export const projectDetails: ProjectDetailData[] = [
   },
   {
     slug: "instagram-script-shoot",
-    title: "Instagram Reels — Script & Shoot",
+    title: "Instagram Reels: Script & Shoot",
     category: "Social Media · Instagram",
     year: "2024–2025",
     description:
@@ -1220,7 +1220,7 @@ export const projectDetails: ProjectDetailData[] = [
   },
   {
     slug: "instagram-research-carousels",
-    title: "Instagram — Research & Carousels",
+    title: "Instagram: Research & Carousels",
     category: "Social Media · Instagram",
     year: "2023–2024",
     description:
