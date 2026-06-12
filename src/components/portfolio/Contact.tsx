@@ -1,9 +1,11 @@
 const EMAIL = "sancharib2014@gmail.com";
 const LINKEDIN = "https://www.linkedin.com/in/sancharibhat";
+const GITHUB = "https://github.com/sancharib-ship-it";
 
 const socials = [
   { label: "Email", value: EMAIL, href: `mailto:${EMAIL}` },
   { label: "LinkedIn", value: "in/sancharibhat", href: LINKEDIN },
+  { label: "GitHub", value: "sancharib-ship-it", href: GITHUB },
 ];
 
 export const Contact = () => {
