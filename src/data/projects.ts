@@ -80,7 +80,7 @@ export const projectDetails: ProjectDetailData[] = [
     metric: { value: "14", label: "KPI System" },
     tags: ["KPI Design", "Dashboard", "Brand Equity", "ROMI", "Campaign Eval"],
     details:
-      "Built a full objective cascade (Business → Marketing → Communication → Media), a 14-KPI system with formative vs summative separation, ex-ante targets, and a causal model linking reach, perception, consideration, switching, market share, and ROMI — operationalized as an interactive decision dashboard with post-mortem analysis.",
+      "Built a full objective cascade (Business → Marketing → Communication → Media), a 14-KPI system with formative vs summative separation, ex-ante targets, and a causal model linking reach, perception, consideration, switching, market share, and ROMI, operationalized as an interactive decision dashboard with post-mortem analysis.",
     link: "https://sancharib-ship-it.github.io/KPI-/",
     cardImage: samsungGalaxyHero,
     externalLink: {
@@ -102,7 +102,7 @@ export const projectDetails: ProjectDetailData[] = [
       },
       {
         heading: "14-KPI System",
-        body: "The framework spans the full funnel — from media reach and frequency to perception lift, consideration, switching intent, market share, and ROMI — with explicit thresholds for success on each.",
+        body: "The framework spans the full funnel, from media reach and frequency to perception lift, consideration, switching intent, market share, and ROMI, with explicit thresholds for success on each.",
       },
       {
         heading: "Causal Model",
@@ -120,7 +120,7 @@ export const projectDetails: ProjectDetailData[] = [
     category: "AI-Developed Marketing",
     year: "2025",
     description:
-      "An AI-assisted Creative Testing System that brings structure, speed, and scalability to paid social experimentation on Meta and TikTok — turning creative optimization into a repeatable growth engine.",
+      "An AI-assisted Creative Testing System that brings structure, speed, and scalability to paid social experimentation on Meta and TikTok, turning creative optimization into a repeatable growth engine.",
     metric: { value: "5", label: "Layer System" },
     tags: [
       "Paid Social",
@@ -140,16 +140,16 @@ export const projectDetails: ProjectDetailData[] = [
     sections: [
       {
         heading: "The Problem",
-        body: "Paid social creative testing is usually ad-hoc — every team reinvents the test, the taxonomy, and the readout. The OS replaces that with a repeatable system.",
+        body: "Paid social creative testing is usually ad-hoc, every team reinvents the test, the taxonomy, and the readout. The OS replaces that with a repeatable system.",
       },
       {
         heading: "5-Layer System",
         bullets: [
-          "Creative taxonomy — shared vocabulary for hooks, formats, and angles",
-          "Hypothesis-driven backlog — 20+ hypotheses and a 50-hook bank ready to deploy",
-          "Clean experiment design — guardrails for sample size, runtime, and significance",
-          "AI integration — auto-tagging of creatives and synthesis of test learnings",
-          "Fatigue monitoring — early-warning signals before performance breaks",
+          "Creative taxonomy: shared vocabulary for hooks, formats, and angles",
+          "Hypothesis-driven backlog: 20+ hypotheses and a 50-hook bank ready to deploy",
+          "Clean experiment design: guardrails for sample size, runtime, and significance",
+          "AI integration: auto-tagging of creatives and synthesis of test learnings",
+          "Fatigue monitoring: early-warning signals before performance breaks",
         ],
       },
       {
@@ -159,7 +159,7 @@ export const projectDetails: ProjectDetailData[] = [
           "Per-test scorecards",
           "Test planner with hypothesis library",
           "AI copilot for brief generation and insight synthesis",
-          "Learnings vault — every test outcome searchable",
+          "Learnings vault: every test outcome searchable",
         ],
       },
     ],
@@ -180,7 +180,7 @@ export const projectDetails: ProjectDetailData[] = [
       "Vanilla JS",
     ],
     details:
-      "Architected with LLM agents (Gemini/Antigravity): 9 modular learning paths, 25+ MCQ assessment engine with instant grading, real-world case simulators (Heineken, Nike, Coca-Cola), client-side search, dual-theme glassmorphic UI, and scroll-based progress tracking — deployed via GitHub + here.now.",
+      "Architected with LLM agents (Gemini/Antigravity): 9 modular learning paths, 25+ MCQ assessment engine with instant grading, real-world case simulators (Heineken, Nike, Coca-Cola), client-side search, dual-theme glassmorphic UI, and scroll-based progress tracking, deployed via GitHub + here.now.",
     link: "https://ancient-fresco-atyp.here.now/",
     cardImage: kpisForDummiesHero,
     externalLink: {
@@ -195,15 +195,15 @@ export const projectDetails: ProjectDetailData[] = [
       {
         heading: "Modular Learning Engine",
         bullets: [
-          "9 specialized modules — Brand Equity (Aaker / Keller), Share of Voice, Revenue & Cost, North Star Metrics",
-          "Micro-learning format — complex data distilled into visual cards and glassmorphic blocks",
+          "9 specialized modules: Brand Equity (Aaker / Keller), Share of Voice, Revenue & Cost, North Star Metrics",
+          "Micro-learning format: complex data distilled into visual cards and glassmorphic blocks",
         ],
       },
       {
         heading: "AI-Powered Assessment (Modules 8 & 9)",
         bullets: [
-          "MCQ Test Suite — 25+ dynamic questions with instant grading and reasoning",
-          "Case Study Simulator — Heineken, Nike, Coca-Cola walkthroughs plus simplified Dummies cases",
+          "MCQ Test Suite: 25+ dynamic questions with instant grading and reasoning",
+          "Case Study Simulator: Heineken, Nike, Coca-Cola walkthroughs plus simplified Dummies cases",
         ],
       },
       {
@@ -231,7 +231,7 @@ export const projectDetails: ProjectDetailData[] = [
     category: "AI-Developed Marketing",
     year: "2026",
     description:
-      "An automated demand-recovery platform for RC Celta de Vigo: it captures fan interest while sections are sold out, watches ONEBOX inventory, and emails a purchase deep-link the instant a seat frees up — built entirely with tools a marketing team already owns.",
+      "An automated demand-recovery platform for RC Celta de Vigo: it captures fan interest while sections are sold out, watches ONEBOX inventory, and emails a purchase deep-link the instant a seat frees up, built entirely with tools a marketing team already owns.",
     metric: { value: "24/7", label: "Inventory Watch" },
     tags: [
       "Marketing Automation",
@@ -241,7 +241,7 @@ export const projectDetails: ProjectDetailData[] = [
       "Claude Code",
     ],
     details:
-      "A demand-recovery system that converts sold-out moments into captured demand: fans register interest on a waitlist, an automation continuously polls ONEBOX ticketing inventory, and the instant a seat is released it emails the interested fan a deep-link straight to checkout — built on n8n and existing marketing tooling, with GDPR-compliant consent capture.",
+      "A demand-recovery system that converts sold-out moments into captured demand: fans register interest on a waitlist, an automation continuously polls ONEBOX ticketing inventory, and the instant a seat is released it emails the interested fan a deep-link straight to checkout, built on n8n and existing marketing tooling, with GDPR-compliant consent capture.",
     link: "https://marketinglabgroup2-spec.github.io/rc-celta-vigo/",
     cardImage: rcCeltaHero,
     externalLink: {
@@ -251,22 +251,22 @@ export const projectDetails: ProjectDetailData[] = [
     sections: [
       {
         heading: "Project Description",
-        body: "Branded MEMORIA — 'Balaídos remembers.' — this is an AI-powered fan reconnection platform for RC Celta de Vigo. When a section sells out, the fan journey normally ends in a dead-end, yet empty seats still appear from cancellations and last-minute releases. MEMORIA turns that dead-end into a marketing channel: it captures fan interest while sections are sold out, watches ONEBOX ticketing inventory in the background, and emails a purchase deep-link the moment a seat frees up — making sure no memory opportunity goes unused, built entirely with tools a marketing team already owns.",
+        body: "Branded MEMORIA, 'Balaídos remembers.', this is an AI-powered fan reconnection platform for RC Celta de Vigo. When a section sells out, the fan journey normally ends in a dead-end, yet empty seats still appear from cancellations and last-minute releases. MEMORIA turns that dead-end into a marketing channel: it captures fan interest while sections are sold out, watches ONEBOX ticketing inventory in the background, and emails a purchase deep-link the moment a seat frees up, making sure no memory opportunity goes unused, built entirely with tools a marketing team already owns.",
       },
       {
-        heading: "The Problem — Every Empty Seat Is a Missed Memory",
-        body: "On matchdays, Balaídos is sold out — but in reality, empty seats still exist. Fans miss opportunities and the club loses value. An empty seat is not just lost revenue; it is a lost memory.",
+        heading: "The Problem: Every Empty Seat Is a Missed Memory",
+        body: "On matchdays, Balaídos is sold out, but in reality, empty seats still exist. Fans miss opportunities and the club loses value. An empty seat is not just lost revenue; it is a lost memory.",
         bullets: [
-          "Empty seats — released and cancelled inventory goes unfilled",
-          "Fans miss out — no way to be notified when a seat opens up",
-          "Revenue lost — last-minute availability never converts",
-          "Secondary market wins — resale platforms capture value the club should",
-          "Data lost — high-intent demand signals are never captured",
+          "Empty seats: released and cancelled inventory goes unfilled",
+          "Fans miss out: no way to be notified when a seat opens up",
+          "Revenue lost: last-minute availability never converts",
+          "Secondary market wins: resale platforms capture value the club should",
+          "Data lost: high-intent demand signals are never captured",
         ],
       },
       {
         heading: "The Opportunity",
-        body: "MEMORIA turns technology into connection, and connection into loyalty — meeting how Celta fans actually behave today.",
+        body: "MEMORIA turns technology into connection, and connection into loyalty, meeting how Celta fans actually behave today.",
         bullets: [
           "Fans expect personalization",
           "Last-minute attendance is real",
@@ -275,42 +275,42 @@ export const projectDetails: ProjectDetailData[] = [
         ],
       },
       {
-        heading: "The Solution — How MEMORIA Works",
-        body: "We detect released seats in real time and invite the right fans first — before anyone else. Every alert turns an unused seat into a created memory.",
+        heading: "The Solution: How MEMORIA Works",
+        body: "We detect released seats in real time and invite the right fans first, before anyone else. Every alert turns an unused seat into a created memory.",
         bullets: [
-          "Fan joins — registers interest and consents to be notified",
-          "AI monitors — the system continuously watches ONEBOX inventory",
-          "Seat found — a released or cancelled seat is detected in real time",
-          "Fan alerted — a personalized email with a purchase deep-link goes out instantly",
-          "Memory created — the fan completes checkout and is back in the stadium",
+          "Fan joins: registers interest and consents to be notified",
+          "AI monitors: the system continuously watches ONEBOX inventory",
+          "Seat found: a released or cancelled seat is detected in real time",
+          "Fan alerted: a personalized email with a purchase deep-link goes out instantly",
+          "Memory created: the fan completes checkout and is back in the stadium",
         ],
       },
       {
-        heading: "The Email Experience — More Than an Alert, an Invitation",
-        body: "MEMORIA turns every email into a personal, contextual and emotional experience — not just a notification.",
+        heading: "The Email Experience: More Than an Alert, an Invitation",
+        body: "MEMORIA turns every email into a personal, contextual and emotional experience, not just a notification.",
         bullets: [
-          "Personalized emails — personalized, contextual, local & relevant, timely & emotional",
-          "Welcome journey — a branded onboarding email when a fan joins",
-          "Match alert email — '¡Hay entradas disponibles!' with the fixture and a one-tap ticket link",
+          "Personalized emails: personalized, contextual, local & relevant, timely & emotional",
+          "Welcome journey: a branded onboarding email when a fan joins",
+          "Match alert email: '¡Hay entradas disponibles!' with the fixture and a one-tap ticket link",
         ],
       },
       {
         heading: "Refer-a-Friend & Viral Growth",
-        body: "Fans don't just join MEMORIA — they bring others with them. The refer-a-friend system turns passion into connection: easy to share, built to grow, ready to reward.",
+        body: "Fans don't just join MEMORIA, they bring others with them. The refer-a-friend system turns passion into connection: easy to share, built to grow, ready to reward.",
         bullets: [
-          "Share instantly — invite friends in one click via WhatsApp, email, Telegram, or link",
-          "Friends join — a simple, personalized, trusted sign-up",
-          "The club tracks — every referral is attributed, so the club knows who brings others in",
-          "We all grow — more fans, stronger community, bigger impact",
+          "Share instantly: invite friends in one click via WhatsApp, email, Telegram, or link",
+          "Friends join: a simple, personalized, trusted sign-up",
+          "The club tracks: every referral is attributed, so the club knows who brings others in",
+          "We all grow: more fans, stronger community, bigger impact",
         ],
       },
       {
-        heading: "Technical Architecture — Always On, Built Responsibly",
+        heading: "Technical Architecture: Always On, Built Responsibly",
         body: "MEMORIA connects real-time data, smart automation and privacy-by-design to deliver the best experience for fans and the club.",
         bullets: [
-          "Live infrastructure — real-time data & sync, live seat-availability updates, AI monitoring",
-          "Automation system — smart tagging, personalized journeys, referral tracking",
-          "Privacy & compliance — privacy by design, age verification (14+), transparent & legal",
+          "Live infrastructure: real-time data & sync, live seat-availability updates, AI monitoring",
+          "Automation system: smart tagging, personalized journeys, referral tracking",
+          "Privacy & compliance: privacy by design, age verification (14+), transparent & legal",
         ],
         images: [
           {
@@ -322,27 +322,27 @@ export const projectDetails: ProjectDetailData[] = [
         ],
       },
       {
-        heading: "Data & CRM Strategy — Data With Permission, Personalization With Purpose",
+        heading: "Data & CRM Strategy: Data With Permission, Personalization With Purpose",
         body: "Every interaction helps MEMORIA create meaningful fan experiences.",
         bullets: [
-          "Data collection — behavioral data, referral data, conversion data",
-          "CRM intelligence — segmentation, personalized journeys, loyalty",
-          "Continuous optimization — funnel analysis, demand insights, price-point retargeting",
+          "Data collection: behavioral data, referral data, conversion data",
+          "CRM intelligence: segmentation, personalized journeys, loyalty",
+          "Continuous optimization: funnel analysis, demand insights, price-point retargeting",
         ],
       },
       {
         heading: "Growth & Community Strategy",
         body: "Build awareness. Ignite interest. Grow together. MEMORIA transforms fans into the club's biggest advocates.",
         bullets: [
-          "Launch campaign — social launch, early access, matchday countdown, email teasers",
-          "Community strategy — fan content, engagement, referral sharing, user-generated content",
-          "Viral growth engine — share instantly, double opt-in, measurable growth",
+          "Launch campaign: social launch, early access, matchday countdown, email teasers",
+          "Community strategy: fan content, engagement, referral sharing, user-generated content",
+          "Viral growth engine: share instantly, double opt-in, measurable growth",
         ],
       },
       {
         heading: "Built With What You Already Own",
         bullets: [
-          "Orchestrated in n8n — no new infrastructure or engineering team required",
+          "Orchestrated in n8n: no new infrastructure or engineering team required",
           "API integration with the ONEBOX ticketing system for live inventory signals",
           "Assembled with Claude Code, so a marketing team can own and extend it",
         ],
@@ -351,20 +351,20 @@ export const projectDetails: ProjectDetailData[] = [
         heading: "Privacy & Compliance",
         body: "Fan interest is captured with GDPR-compliant consent, so the demand-recovery channel is built on a clean, permission-based contact base from day one. The platform meets the following regulatory standards:",
         bullets: [
-          "🇪🇺 GDPR (RGPD) — General Data Protection Regulation · EU 2016/679",
-          "🇪🇸 LOPDGDD — Spanish Organic Law 3/2018",
-          "📧 LSSI-CE — Spanish Law 34/2002 · Information Society Services",
+          "🇪🇺 GDPR (RGPD), General Data Protection Regulation · EU 2016/679",
+          "🇪🇸 LOPDGDD, Spanish Organic Law 3/2018",
+          "📧 LSSI-CE, Spanish Law 34/2002 · Information Society Services",
         ],
       },
       {
         heading: "Tools & Stack",
         bullets: [
-          "Claude Code (on VS Code) — used to build the platform",
-          "n8n — orchestrates the automation workflow",
-          "Mailchimp — sends the seat-availability email notifications",
-          "ONEBOX — sandbox API used for testing; swappable for the live production API",
-          "GA4 — analytics and event tracking",
-          "Looker Studio — performance dashboard and reporting",
+          "Claude Code (on VS Code): used to build the platform",
+          "n8n, orchestrates the automation workflow",
+          "Mailchimp: sends the seat-availability email notifications",
+          "ONEBOX: sandbox API used for testing; swappable for the live production API",
+          "GA4: analytics and event tracking",
+          "Looker Studio: performance dashboard and reporting",
         ],
       },
       {
@@ -372,19 +372,19 @@ export const projectDetails: ProjectDetailData[] = [
         body: "Explore the live platform and the measurement layer behind it.",
         links: [
           {
-            label: "Live platform — RC Celta Seat Alert",
+            label: "Live platform: RC Celta Seat Alert",
             href: "https://marketinglabgroup2-spec.github.io/rc-celta-vigo/",
             note: "The fan-facing waitlist and alert experience.",
           },
           {
-            label: "GA4 — Analytics reporting (internal)",
+            label: "GA4: Analytics reporting (internal)",
             href: "https://analytics.google.com/analytics/web/#/a395505275p538631993/reports/reportinghub?params=_u..nav%3Dmaui&restoreUserState=true&collectionId=business-objectives",
-            note: "Behavioural and conversion tracking — requires Google Analytics access.",
+            note: "Behavioural and conversion tracking: requires Google Analytics access.",
           },
           {
-            label: "Looker Studio — Performance dashboard (internal)",
+            label: "Looker Studio: Performance dashboard (internal)",
             href: "https://datastudio.google.com/reporting/74ec38d5-4545-4ac6-a478-94150ad80bd8",
-            note: "Visual reporting on demand capture and seat-recovery performance — requires access.",
+            note: "Visual reporting on demand capture and seat-recovery performance, requires access.",
           },
         ],
       },
@@ -398,7 +398,7 @@ export const projectDetails: ProjectDetailData[] = [
     category: "Branding Ideations",
     year: "2025",
     description:
-      "A conceptual sock brand that reimagines an everyday essential as a canvas for Indian visual culture — built end-to-end as a complete brand ecosystem in a 36-hour sprint.",
+      "A conceptual sock brand that reimagines an everyday essential as a canvas for Indian visual culture, built end-to-end as a complete brand ecosystem in a 36-hour sprint.",
     metric: { value: "3", label: "Collections" },
     tags: [
       "Brand Strategy",
@@ -408,7 +408,7 @@ export const projectDetails: ProjectDetailData[] = [
       "Web Design",
     ],
     details:
-      "Built JŪDWĀ around 'Two sides. One story.' — positioning, wordmark, palette, three pattern collections, gift-worthy drawer-box packaging, IG grid, and a landing page.",
+      "Built JŪDWĀ around 'Two sides. One story.', positioning, wordmark, palette, three pattern collections, gift-worthy drawer-box packaging, IG grid, and a landing page.",
     link: "https://www.canva.com/design/DAG9_OqH86c/OdtSzYjwlirNxrC6cSuA3A/view",
     cardImage: judwa08,
     externalLink: {
@@ -433,13 +433,13 @@ export const projectDetails: ProjectDetailData[] = [
     sections: [
       {
         heading: "Project Overview",
-        body: "JŪDWĀ is a conceptual sock brand that reimagines an everyday product as a canvas for Indian visual culture — exploring how a functional, often overlooked product can be elevated through cultural storytelling, pattern-led design, and a cohesive brand system. Built end-to-end as if ready to launch.",
+        body: "JŪDWĀ is a conceptual sock brand that reimagines an everyday product as a canvas for Indian visual culture, exploring how a functional, often overlooked product can be elevated through cultural storytelling, pattern-led design, and a cohesive brand system. Built end-to-end as if ready to launch.",
       },
       {
         heading: "The Problem",
         bullets: [
           "Everyday essentials are branded with minimal differentiation, generic patterns, and little cultural context",
-          "Indian craft traditions are rich and symbolic — but rarely translated into modern lifestyle products that feel contemporary and premium",
+          "Indian craft traditions are rich and symbolic, but rarely translated into modern lifestyle products that feel contemporary and premium",
           "Challenge: bring Indian craft into daily-wear without turning it into costume",
         ],
       },
@@ -454,7 +454,7 @@ export const projectDetails: ProjectDetailData[] = [
       },
       {
         heading: "Brand Idea",
-        body: "Name: JŪDWĀ — meaning pair / twin, a natural fit for socks. Core idea: Two sides. One story. Each pair is a complete narrative where both sides carry the same design language.",
+        body: "Name: JŪDWĀ, meaning pair / twin, a natural fit for socks. Core idea: Two sides. One story. Each pair is a complete narrative where both sides carry the same design language.",
         images: [{ src: judwa01, alt: "JŪDWĀ logo", caption: "Two sides. One story." }],
       },
       {
@@ -467,36 +467,36 @@ export const projectDetails: ProjectDetailData[] = [
       },
       {
         heading: "Visual Identity",
-        body: "Wordmark balances editorial serif typography, ornamental Indian detailing, and strong horizontal symmetry — ceremonial yet modern, drawing from Indian wedding cards and textile catalogues.",
+        body: "Wordmark balances editorial serif typography, ornamental Indian detailing, and strong horizontal symmetry, ceremonial yet modern, drawing from Indian wedding cards and textile catalogues.",
       },
       {
         heading: "Colour Palette",
         bullets: [
-          "Deep Indigo — structure, calm, heritage",
-          "Rani Pink — celebration, warmth",
-          "Haldi Yellow — ritual, accent, energy",
-          "Peacock Green — richness, depth",
-          "Ivory / Beige — textile neutrality",
+          "Deep Indigo: structure, calm, heritage",
+          "Rani Pink: celebration, warmth",
+          "Haldi Yellow: ritual, accent, energy",
+          "Peacock Green: richness, depth",
+          "Ivory / Beige: textile neutrality",
         ],
         images: [{ src: judwa02, alt: "JŪDWĀ colour palette swatches", caption: "Indigo · Rani Pink · Haldi · Peacock · Ivory" }],
       },
       {
         heading: "Collections",
         bullets: [
-          "JAALI — Mughal latticework on deep indigo with marigold dots; regal, architectural, calm",
-          "JĀNVAR (Animal Border) — animal motifs on rani pink, framed in vermillion and gold; festive, ornamental",
-          "IKAT FIELD — handloom ikat reinterpreted digitally; off-white base with indigo and rust motifs, denser toward the calf",
+          "JAALI: Mughal latticework on deep indigo with marigold dots; regal, architectural, calm",
+          "JĀNVAR (Animal Border): animal motifs on rani pink, framed in vermillion and gold; festive, ornamental",
+          "IKAT FIELD: handloom ikat reinterpreted digitally; off-white base with indigo and rust motifs, denser toward the calf",
         ],
         images: [
-          { src: judwa03, alt: "JAALI collection on deep indigo", caption: "JAALI — Regal, architectural, calm" },
+          { src: judwa03, alt: "JAALI collection on deep indigo", caption: "JAALI: Regal, architectural, calm" },
           { src: judwa04, alt: "JAALI in pink tones" },
-          { src: judwa05, alt: "JĀNVAR animal border collection", caption: "JĀNVAR — Festive, ornamental" },
-          { src: judwa06, alt: "IKAT FIELD collection", caption: "IKAT FIELD — Contemporary craft, grounded" },
+          { src: judwa05, alt: "JĀNVAR animal border collection", caption: "JĀNVAR: Festive, ornamental" },
+          { src: judwa06, alt: "IKAT FIELD collection", caption: "IKAT FIELD: Contemporary craft, grounded" },
         ],
       },
       {
         heading: "Packaging",
-        body: "Fixed rigid drawer-style box designed as a keepsake — ivory outer sleeve with deep indigo ornamental border, centered logo, deep indigo inner tray with fabric pull tab. Inspired by Indian wedding invitation boxes and archival textile packaging.",
+        body: "Fixed rigid drawer-style box designed as a keepsake, ivory outer sleeve with deep indigo ornamental border, centered logo, deep indigo inner tray with fabric pull tab. Inspired by Indian wedding invitation boxes and archival textile packaging.",
         images: [
           { src: judwa07, alt: "JŪDWĀ box seal with ornamental border" },
           { src: judwa08, alt: "Open box with three collections inside" },
@@ -504,11 +504,11 @@ export const projectDetails: ProjectDetailData[] = [
       },
       {
         heading: "Digital Presence",
-        body: "Instagram grid follows a 3-column rhythm (brand statements, product heroes, detail / texture). Website mirrors the physical brand — calm hierarchy, large product visuals, expressive UI inspired by print design.",
+        body: "Instagram grid follows a 3-column rhythm (brand statements, product heroes, detail / texture). Website mirrors the physical brand, calm hierarchy, large product visuals, expressive UI inspired by print design.",
         images: [
           { src: judwa09, alt: "Weaving tools and packaging detail", caption: "Instagram texture shots and product heroes" },
           { src: judwa10, alt: "Box with three collections display" },
-          { src: judwa11, alt: "Collections page — IKAT FIELD" },
+          { src: judwa11, alt: "Collections page: IKAT FIELD" },
         ],
       },
       {
@@ -528,7 +528,7 @@ export const projectDetails: ProjectDetailData[] = [
     category: "Branding Ideations",
     year: "2025",
     description:
-      "A conceptual matchbox brand that reframes ignition as a monitored, logged event — using branding as cultural commentary on surveillance, permission, and femininity under watch.",
+      "A conceptual matchbox brand that reframes ignition as a monitored, logged event, using branding as cultural commentary on surveillance, permission, and femininity under watch.",
     metric: { value: "1", label: "Concept Brand" },
     tags: [
       "Concept Branding",
@@ -543,17 +543,17 @@ export const projectDetails: ProjectDetailData[] = [
     heroImage: {
       src: strike01,
       alt: "STRIKE camera surveillance frame",
-      caption: "CAM 03 · ID 753941 — STRIKE under observation",
+      caption: "CAM 03 · ID 753941: STRIKE under observation",
     },
     sections: [
       {
         heading: "Problem Framing",
-        body: "The matchbox is designed for instant action — strike, ignite, discard. But in contemporary society, acts that carry risk are rarely allowed to remain neutral. They are monitored, logged, discouraged, or reframed as regulated behaviour. Surveillance has become ambient, normalised, aestheticised. The brief: what happens when ignition is treated as an event that must be observed before it is allowed?",
+        body: "The matchbox is designed for instant action, strike, ignite, discard. But in contemporary society, acts that carry risk are rarely allowed to remain neutral. They are monitored, logged, discouraged, or reframed as regulated behaviour. Surveillance has become ambient, normalised, aestheticised. The brief: what happens when ignition is treated as an event that must be observed before it is allowed?",
       },
       {
         heading: "Strategic Insight",
         bullets: [
-          "Surveillance does not prevent action — it redefines permission",
+          "Surveillance does not prevent action: it redefines permission",
           "Action is recorded before it is understood",
           "Authority is implied through monitoring",
           "Risk is tolerated only when systems can account for it",
@@ -562,7 +562,7 @@ export const projectDetails: ProjectDetailData[] = [
       },
       {
         heading: "Brand Idea",
-        body: "Ignition is not permission. STRIKE reframes ignition as a monitored trigger, a logged event, a deviation that must be contextualised. The brand does not sell safety or rebellion — it exposes the logic of control around even the smallest actions.",
+        body: "Ignition is not permission. STRIKE reframes ignition as a monitored trigger, a logged event, a deviation that must be contextualised. The brand does not sell safety or rebellion, it exposes the logic of control around even the smallest actions.",
       },
       {
         heading: "Positioning",
@@ -575,11 +575,11 @@ export const projectDetails: ProjectDetailData[] = [
       },
       {
         heading: "Naming & Verbal System",
-        body: "STRIKE works on two levels — the literal (striking a match) and the systemic (a decisive, logged event). Neutral, authoritative, emotionally flat. Tagline 'Ignition is not permission.' functions as a warning, a policy statement, and a cultural observation — instructional, not persuasive.",
+        body: "STRIKE works on two levels, the literal (striking a match) and the systemic (a decisive, logged event). Neutral, authoritative, emotionally flat. Tagline 'Ignition is not permission.' functions as a warning, a policy statement, and a cultural observation, instructional, not persuasive.",
       },
       {
         heading: "Visual System",
-        body: "Identity borrows from CCTV overlays, evidence labelling, UI framing, and metadata hierarchies. The logo is always framed, timestamped, contextualised — never decorative.",
+        body: "Identity borrows from CCTV overlays, evidence labelling, UI framing, and metadata hierarchies. The logo is always framed, timestamped, contextualised, never decorative.",
         images: [
           { src: strike02, alt: "STRIKE matchbox on textured surface" },
           { src: strike03, alt: "STRIKE matchbox flat" },
@@ -587,24 +587,24 @@ export const projectDetails: ProjectDetailData[] = [
         ],
       },
       {
-        heading: "Colour Strategy — Soft Under Watch",
+        heading: "Colour Strategy: Soft Under Watch",
         bullets: [
-          "Soft Layer: Dusty Rose, Warm Ivory — restrained femininity, visual calm",
-          "System Layer: Charcoal Black, Cold Grey — structure, frame, control",
-          "Ignition Accent: Warning Red — restricted use, signals consequence",
+          "Soft Layer: Dusty Rose, Warm Ivory, restrained femininity, visual calm",
+          "System Layer: Charcoal Black, Cold Grey, structure, frame, control",
+          "Ignition Accent: Warning Red: restricted use, signals consequence",
           "Strategic rule: red is never background",
         ],
       },
       {
         heading: "Typography",
         bullets: [
-          "League Spartan — authority and clarity",
-          "Space Mono / IBM Plex Mono — system language",
+          "League Spartan: authority and clarity",
+          "Space Mono / IBM Plex Mono: system language",
         ],
       },
       {
         heading: "Product as System",
-        body: "The matchbox is treated as an evidence container, not packaging — surveillance-style front graphic, framed STRIKE mark, metadata elements (CAM, ID, resolution). Matchsticks: natural wood, uniform length, heads in muted red, wine, deep rose — risk without spectacle.",
+        body: "The matchbox is treated as an evidence container, not packaging, surveillance-style front graphic, framed STRIKE mark, metadata elements (CAM, ID, resolution). Matchsticks: natural wood, uniform length, heads in muted red, wine, deep rose, risk without spectacle.",
         images: [
           {
             src: strike06,
@@ -614,31 +614,31 @@ export const projectDetails: ProjectDetailData[] = [
       },
       {
         heading: "Back-of-Box Strategy",
-        body: "The back panel is written as a system log — observation, discouragement, monitoring, analysis. No marketing language. The tone mimics institutional documentation, reinforcing the brand's critique through form, not explanation.",
+        body: "The back panel is written as a system log, observation, discouragement, monitoring, analysis. No marketing language. The tone mimics institutional documentation, reinforcing the brand's critique through form, not explanation.",
         images: [
           {
             src: strike07,
-            alt: "STRIKE back panel reading 'IGNITION EVENT — LOGGED'",
-            caption: "IGNITION EVENT — LOGGED",
+            alt: "STRIKE back panel reading 'IGNITION EVENT: LOGGED'",
+            caption: "IGNITION EVENT: LOGGED",
           },
         ],
       },
       {
-        heading: "Communication — Posters & OOH",
-        body: "Public-facing communication adopts the same logic. Lines like 'Ignition is not permission.', 'Watch before it burns.', and 'Every spark is recorded.' Placed in environments already saturated with surveillance — streets, transit — the messaging feels less like advertising and more like ambient instruction.",
+        heading: "Communication: Posters & OOH",
+        body: "Public-facing communication adopts the same logic. Lines like 'Ignition is not permission.', 'Watch before it burns.', and 'Every spark is recorded.' Placed in environments already saturated with surveillance, streets, transit, the messaging feels less like advertising and more like ambient instruction.",
         images: [
-          { src: strike05, alt: "STRIKE OOH poster — Watch before it burns" },
+          { src: strike05, alt: "STRIKE OOH poster: Watch before it burns" },
           {
             src: strike09,
             alt: "STRIKE poster with camera recording overlay",
           },
           {
             src: strike08,
-            alt: "STRIKE poster — REC bracket over street crowd",
+            alt: "STRIKE poster: REC bracket over street crowd",
           },
           {
             src: strike10,
-            alt: "STRIKE — REC ACTIVE / CAM 01 / Every spark is recorded",
+            alt: "STRIKE: REC ACTIVE / CAM 01 / Every spark is recorded",
           },
         ],
       },
@@ -654,7 +654,7 @@ export const projectDetails: ProjectDetailData[] = [
       },
       {
         heading: "Outcome",
-        body: "STRIKE demonstrates how branding can function as cultural analysis, system critique, and conceptual object design — using branding not to persuade, but to reveal. It does not ask whether ignition is dangerous. It asks who gets to decide when danger is allowed.",
+        body: "STRIKE demonstrates how branding can function as cultural analysis, system critique, and conceptual object design, using branding not to persuade, but to reveal. It does not ask whether ignition is dangerous. It asks who gets to decide when danger is allowed.",
       },
     ],
   },
@@ -666,7 +666,7 @@ export const projectDetails: ProjectDetailData[] = [
     category: "Marketing Strategy",
     year: "2025",
     description:
-      "A transactional growth strategy turning Starbucks Spain from a coffee retailer into a culturally embedded, multi-occasion ecosystem — anchored on a redesigned mobile app and a 'Digital Third Space.'",
+      "A transactional growth strategy turning Starbucks Spain from a coffee retailer into a culturally embedded, multi-occasion ecosystem, anchored on a redesigned mobile app and a 'Digital Third Space.'",
     metric: { value: "3.2x", label: "Group Basket" },
     tags: [
       "Growth Strategy",
@@ -676,7 +676,7 @@ export const projectDetails: ProjectDetailData[] = [
       "Lifecycle",
     ],
     details:
-      "Mapped the full feature inventory across smart ordering, group carts, rewards, sustainability, and a Coffee Personality system — tied to transactional levers and Nir Eyal's Hook Model.",
+      "Mapped the full feature inventory across smart ordering, group carts, rewards, sustainability, and a Coffee Personality system, tied to transactional levers and Nir Eyal's Hook Model.",
     link: "https://starbucks-redesigned.lovable.app/",
     cardImage: starbucksSpainHero,
     externalLink: {
@@ -686,25 +686,25 @@ export const projectDetails: ProjectDetailData[] = [
     sections: [
       {
         heading: "Project Description",
-        body: "A strategy to accelerate transactional growth for Starbucks Spain by transforming the brand from a coffee retailer into a culturally embedded, multi-occasion ecosystem. Built on a redesigned mobile app and a Digital Third Space, it activates physical stores, social rituals, and time-based consumption — driving frequency, dayparts, basket size, and incremental traffic.",
+        body: "A strategy to accelerate transactional growth for Starbucks Spain by transforming the brand from a coffee retailer into a culturally embedded, multi-occasion ecosystem. Built on a redesigned mobile app and a Digital Third Space, it activates physical stores, social rituals, and time-based consumption, driving frequency, dayparts, basket size, and incremental traffic.",
       },
       {
         heading: "Home & Smart Ordering",
         bullets: [
-          "Smart 'Your Usual' panel — one-tap reorder, ~5s vs ~2min, up to 35% impulse lift",
-          "Order Again carousel — visual memory cues drive repeats",
-          "Quick / Explore mode toggle — habitual vs discovery segments",
-          "Contextual greeting + Coffee Personality badge — emotional warmth, curiosity",
-          "Nearby Store card — open status, distance, ETA",
+          "Smart 'Your Usual' panel: one-tap reorder, ~5s vs ~2min, up to 35% impulse lift",
+          "Order Again carousel: visual memory cues drive repeats",
+          "Quick / Explore mode toggle: habitual vs discovery segments",
+          "Contextual greeting + Coffee Personality badge: emotional warmth, curiosity",
+          "Nearby Store card: open status, distance, ETA",
         ],
       },
       {
         heading: "Menu & Customisation",
         bullets: [
           "Categorized menu, real-time search",
-          "Item customisation with live price/calorie updates — premium upsell",
+          "Item customisation with live price/calorie updates: premium upsell",
           "Quick presets, allergen badges, reusable cup toggle",
-          "Save as profile — highest-converting UX pattern",
+          "Save as profile: highest-converting UX pattern",
         ],
       },
       {
@@ -726,20 +726,20 @@ export const projectDetails: ProjectDetailData[] = [
       {
         heading: "Rewards & Gamification",
         bullets: [
-          "Stars balance — sunk-cost effect",
-          "Progress bar — endowed progress effect",
+          "Stars balance: sunk-cost effect",
+          "Progress bar: endowed progress effect",
           "Milestone ladder (25★–400★)",
           "Time-limited challenges, streak counter (loss aversion)",
-          "Tier system Green → Gold — status signalling",
+          "Tier system Green → Gold: status signalling",
         ],
       },
       {
         heading: "Social, Sustainability & Personality",
         bullets: [
-          "Friends Nearby feed + real-time popups — social proof, interrupt-driven conversion",
-          "Personality sharing — organic acquisition at zero CAC",
-          "Eco Champion badge, impact dashboard, Plant a Tree (150★) — alternative star sink",
-          "5-axis Coffee Personality with 7 archetypes — identity-based loyalty",
+          "Friends Nearby feed + real-time popups: social proof, interrupt-driven conversion",
+          "Personality sharing: organic acquisition at zero CAC",
+          "Eco Champion badge, impact dashboard, Plant a Tree (150★), alternative star sink",
+          "5-axis Coffee Personality with 7 archetypes: identity-based loyalty",
         ],
       },
       {
@@ -772,16 +772,16 @@ export const projectDetails: ProjectDetailData[] = [
       {
         heading: "Behavioural Loop (Hook Model)",
         bullets: [
-          "Trigger — friend popup, morning greeting, challenge deadline",
-          "Action — frictionless one-tap reorder of 'Your Usual'",
-          "Variable Reward — stars earned, personality evolves, archetype unlocks",
-          "Investment — saved profiles, accumulated stars, social graph",
+          "Trigger: friend popup, morning greeting, challenge deadline",
+          "Action: frictionless one-tap reorder of 'Your Usual'",
+          "Variable Reward: stars earned, personality evolves, archetype unlocks",
+          "Investment: saved profiles, accumulated stars, social graph",
           "Each cycle makes the next purchase more likely",
         ],
       },
       {
         heading: "Conclusion",
-        body: "The app is not a menu viewer. It is a transaction engine disguised as a delightful coffee experience — addressing three imperatives: digitise Spain's social coffee ritual, create switching costs through stars, profiles and social graphs, and expand the addressable market via delivery and group ordering.",
+        body: "The app is not a menu viewer. It is a transaction engine disguised as a delightful coffee experience, addressing three imperatives: digitise Spain's social coffee ritual, create switching costs through stars, profiles and social graphs, and expand the addressable market via delivery and group ordering.",
       },
     ],
   },
@@ -791,7 +791,7 @@ export const projectDetails: ProjectDetailData[] = [
     category: "Marketing Strategy",
     year: "2025",
     description:
-      "A research-led CX redesign of India's largest doctor booking app — turning Practo from a one-off appointment tool into a continuous care companion across discovery, consult, prescription, and follow-up.",
+      "A research-led CX redesign of India's largest doctor booking app, turning Practo from a one-off appointment tool into a continuous care companion across discovery, consult, prescription, and follow-up.",
     metric: { value: "5", label: "Journey Phases" },
     tags: [
       "CX Strategy",
@@ -811,24 +811,24 @@ export const projectDetails: ProjectDetailData[] = [
     sections: [
       {
         heading: "Project Brief",
-        body: "Practo is one of India's oldest digital health platforms — 100,000+ verified doctors across 50+ cities. Despite its scale, the app experience has fallen behind: a broken post-consultation flow, unclear online vs. clinic distinction, and no health continuity. This self-initiated portfolio redesign rethinks the patient journey from first search through to ongoing care, using App Store reviews, Trustpilot complaints, UX case studies, and Practo's own help docs.",
+        body: "Practo is one of India's oldest digital health platforms, 100,000+ verified doctors across 50+ cities. Despite its scale, the app experience has fallen behind: a broken post-consultation flow, unclear online vs. clinic distinction, and no health continuity. This self-initiated portfolio redesign rethinks the patient journey from first search through to ongoing care, using App Store reviews, Trustpilot complaints, UX case studies, and Practo's own help docs.",
       },
       {
         heading: "Design Goal",
-        body: "Transform Practo from a one-off appointment booking tool into a continuous care companion — one that understands a user's health context, guides them to the right doctor, and supports them from the moment a consultation ends through recovery and beyond.",
+        body: "Transform Practo from a one-off appointment booking tool into a continuous care companion, one that understands a user's health context, guides them to the right doctor, and supports them from the moment a consultation ends through recovery and beyond.",
       },
       {
         heading: "Core Problem",
-        body: "Users arrive at Practo with a health concern, but the platform serves multiple needs (instant video, clinic appointments, medicine, lab tests). The navigation doesn't reflect how users actually think — 'I have a fever' vs. 'I need a dermatologist.'",
+        body: "Users arrive at Practo with a health concern, but the platform serves multiple needs (instant video, clinic appointments, medicine, lab tests). The navigation doesn't reflect how users actually think, 'I have a fever' vs. 'I need a dermatologist.'",
       },
       {
         heading: "Key Pain Points",
         bullets: [
-          "Clinic vs. Online consult confusion — no hierarchy, no rationale for price difference, no real-time availability",
-          "Weak doctor discovery — generic filters, sparse trust signals, no live status",
-          "Broken follow-up — prescriptions buried, no re-booking nudge, chat history disappears, lab tests not linked",
-          "No health context — every consult starts from scratch, family management is hidden",
-          "Post-consult dead end — static PDF prescription, no medicine reminders, rating prompt feels transactional",
+          "Clinic vs. Online consult confusion, no hierarchy, no rationale for price difference, no real-time availability",
+          "Weak doctor discovery: generic filters, sparse trust signals, no live status",
+          "Broken follow-up: prescriptions buried, no re-booking nudge, chat history disappears, lab tests not linked",
+          "No health context: every consult starts from scratch, family management is hidden",
+          "Post-consult dead end: static PDF prescription, no medicine reminders, rating prompt feels transactional",
         ],
       },
       {
@@ -844,7 +844,7 @@ export const projectDetails: ProjectDetailData[] = [
         },
       },
       {
-        heading: "Redesign — Before vs. After",
+        heading: "Redesign: Before vs. After",
         table: {
           columns: ["Area", "Before", "After"],
           rows: [
@@ -861,7 +861,7 @@ export const projectDetails: ProjectDetailData[] = [
         },
       },
       {
-        heading: "Emotion Curve — Before → After",
+        heading: "Emotion Curve: Before → After",
         bullets: [
           "Search: Frustrated → Guided (symptom-first search)",
           "Discovery: Confused → Informed (consult type split)",
@@ -885,11 +885,11 @@ export const projectDetails: ProjectDetailData[] = [
       {
         heading: "What This Demonstrates",
         bullets: [
-          "Research rigour — every decision sourced, not assumed",
-          "Systems thinking — info architecture, siloed features reconnected",
-          "Strategic awareness — competitive position and assets to build on",
-          "Visual craft — full Figma system: colour, components, typography, states",
-          "Communication — weeks of work synthesised into a readable narrative",
+          "Research rigour: every decision sourced, not assumed",
+          "Systems thinking: info architecture, siloed features reconnected",
+          "Strategic awareness: competitive position and assets to build on",
+          "Visual craft: full Figma system: colour, components, typography, states",
+          "Communication: weeks of work synthesised into a readable narrative",
         ],
       },
     ],
@@ -910,7 +910,7 @@ export const projectDetails: ProjectDetailData[] = [
       "Prototype",
     ],
     details:
-      "F1 has solved acquisition but not the second race. Three AI-personalised lifecycle journeys — detected at signup and delivered through F1's existing Agentforce fan companion — built to turn a curious first-race viewer into a fan with an emotional stake who watches a second race within 30 days.",
+      "F1 has solved acquisition but not the second race. Three AI-personalised lifecycle journeys, detected at signup and delivered through F1's existing Agentforce fan companion, built to turn a curious first-race viewer into a fan with an emotional stake who watches a second race within 30 days.",
     link: "https://sancharib-ship-it.github.io/F1-Lifecycle-System/",
     externalLink: {
       label: "Open the prototype",
@@ -918,25 +918,25 @@ export const projectDetails: ProjectDetailData[] = [
     },
     heroImage: {
       src: secondRaceHero,
-      alt: "The Second Race — an AI-driven fan lifecycle system for new F1 fans",
+      alt: "The Second Race: an AI-driven fan lifecycle system for new F1 fans",
       caption: "Close the gap. Win a lifelong fan.",
     },
     sections: [
       {
         heading: "TL;DR",
         bullets: [
-          "Diagnosis — F1 has solved acquisition but not the second race. The new fans arriving through Drive to Survive, TikTok, F1 Academy, and F1 The Movie are the youngest, most casual, and most fragile audience the sport has ever had — most have no favourite driver and no reason to come back in two weeks.",
-          "The system — Three AI-personalised lifecycle journeys, detected at signup and delivered through F1's existing Agentforce fan companion. Each journey does one job in 30 days: turn a curious first-race viewer into a fan with an emotional stake who watches a second race unprompted.",
-          "Expected impact — Higher new-fan → retained-fan conversion, measured by second-race watch rate within 30 days.",
+          "Diagnosis: F1 has solved acquisition but not the second race. The new fans arriving through Drive to Survive, TikTok, F1 Academy, and F1 The Movie are the youngest, most casual, and most fragile audience the sport has ever had, most have no favourite driver and no reason to come back in two weeks.",
+          "The system: Three AI-personalised lifecycle journeys, detected at signup and delivered through F1's existing Agentforce fan companion. Each journey does one job in 30 days: turn a curious first-race viewer into a fan with an emotional stake who watches a second race unprompted.",
+          "Expected impact: Higher new-fan → retained-fan conversion, measured by second-race watch rate within 30 days.",
         ],
       },
       {
         heading: "The Growth Paradox",
-        body: "F1's acquisition engine is the best in sports. Drive to Survive, short-form social, F1 Academy, and a $630M+ blockbuster have pulled in a generational wave: a global fanbase of 827 million, 43% of it under 35. Three in four new fans are women, most younger and newer to the sport; nearly half of all Gen Z fans are women, and in the US 70% of Gen Z fans engage with F1 content daily. The paradox is that this success is the retention risk — the fan who arrived via a 10-part Netflix character drama or a 30-second pit-stop clip has deep familiarity with personalities and almost zero literacy in the actual race product. F1 filled the top of the funnel faster than it built the floor underneath it. The specific hole is the handoff: a new fan lands on a live broadcast with no driver to root for, a jargon wall (tyre deltas, undercuts, DRS trains), and then a two-week gap that quietly kills whatever momentum they had. This project designs the system that fills that gap.",
+        body: "F1's acquisition engine is the best in sports. Drive to Survive, short-form social, F1 Academy, and a $630M+ blockbuster have pulled in a generational wave: a global fanbase of 827 million, 43% of it under 35. Three in four new fans are women, most younger and newer to the sport; nearly half of all Gen Z fans are women, and in the US 70% of Gen Z fans engage with F1 content daily. The paradox is that this success is the retention risk, the fan who arrived via a 10-part Netflix character drama or a 30-second pit-stop clip has deep familiarity with personalities and almost zero literacy in the actual race product. F1 filled the top of the funnel faster than it built the floor underneath it. The specific hole is the handoff: a new fan lands on a live broadcast with no driver to root for, a jargon wall (tyre deltas, undercuts, DRS trains), and then a two-week gap that quietly kills whatever momentum they had. This project designs the system that fills that gap.",
       },
       {
         heading: "Activation, Defined",
-        body: "A new fan is activated when (1) they can name a driver or team they're rooting for, and (2) they watch a second race — live or full session — within 30 days of their first. Both halves are load-bearing: a favourite with no second watch is a poster on a wall; a second watch with no favourite is a coin flip that won't survive a boring race.",
+        body: "A new fan is activated when (1) they can name a driver or team they're rooting for, and (2) they watch a second race, live or full session, within 30 days of their first. Both halves are load-bearing: a favourite with no second watch is a poster on a wall; a second watch with no favourite is a coin flip that won't survive a boring race.",
       },
       {
         heading: "The Current New-Fan Journey",
@@ -944,7 +944,7 @@ export const projectDetails: ProjectDetailData[] = [
         table: {
           columns: ["Stage", "What happens", "What F1 provides today"],
           rows: [
-            ["Trigger", "DTS, a viral clip, a friend, F1 The Movie", "Excellent — this is the solved part"],
+            ["Trigger", "DTS, a viral clip, a friend, F1 The Movie", "Excellent: this is the solved part"],
             ["First race watched", "New fan tunes into one live race", "A broadcast built for existing fans; no newcomer mode"],
             ["The gap (the whole problem)", "Two weeks pass. No primer, no driver, no narrative thread", "Almost nothing. This is the unsupported handoff"],
             ["Second race?", "A few return; most churn", "No re-engagement designed around a newcomer's fragile momentum"],
@@ -960,7 +960,7 @@ export const projectDetails: ProjectDetailData[] = [
       },
       {
         heading: "The Three New-Fan Segments",
-        body: "Real, data-backed entry points — not generic personas.",
+        body: "Real, data-backed entry points, not generic personas.",
         table: {
           columns: [
             "Segment",
@@ -996,17 +996,17 @@ export const projectDetails: ProjectDetailData[] = [
       },
       {
         heading: "How a Fan Gets Detected",
-        body: "The system assigns a segment at signup using three signals, then refines it. This rides on infrastructure that already exists — F1's Agentforce fan companion already handles ~80% of fan queries autonomously by drawing on 100+ trusted F1 sources. We extend that same agent from “explains the 2026 regs” to “runs personalised onboarding.”",
+        body: "The system assigns a segment at signup using three signals, then refines it. This rides on infrastructure that already exists, F1's Agentforce fan companion already handles ~80% of fan queries autonomously by drawing on 100+ trusted F1 sources. We extend that same agent from “explains the 2026 regs” to “runs personalised onboarding.”",
         bullets: [
-          "Signup source — F1.com account origin, F1 TV trial, F1 Academy email list, app-install referrer",
-          "One-question onboarding — a single free-text prompt: “What brought you to F1?”",
-          "First-session behaviour — full race watched vs. clips-only; session depth; where they drop off",
+          "Signup source: F1.com account origin, F1 TV trial, F1 Academy email list, app-install referrer",
+          "One-question onboarding: a single free-text prompt: “What brought you to F1?”",
+          "First-session behaviour: full race watched vs. clips-only; session depth; where they drop off",
           "The AI's job at this layer: classify the free-text answer into a segment, score churn risk from engagement decay (days since last session × session depth), and select the next-best message",
         ],
       },
       {
         heading: "The Three Branched Flows",
-        body: "Every flow follows the same spine — welcome → get-a-favourite-driver → pre-race primer → live-race companion → post-race re-engagement → countdown bridge — but the content and emotional hook differ by segment. Gen Z Social Fan: the welcome riffs on a clip they already engaged with, the primer is vertical short-form video not text, and the live companion clips key moments in real time so the race feels like a live feed. F1 Academy Newcomer: the welcome explicitly bridges the two worlds (“you followed an Academy driver's rise — here's who that maps to on the main grid”), the primer leads with human and development stories, and the post-race ties the result back to the season-long arc.",
+        body: "Every flow follows the same spine, welcome → get-a-favourite-driver → pre-race primer → live-race companion → post-race re-engagement → countdown bridge, but the content and emotional hook differ by segment. Gen Z Social Fan: the welcome riffs on a clip they already engaged with, the primer is vertical short-form video not text, and the live companion clips key moments in real time so the race feels like a live feed. F1 Academy Newcomer: the welcome explicitly bridges the two worlds (“you followed an Academy driver's rise, here's who that maps to on the main grid”), the primer leads with human and development stories, and the post-race ties the result back to the season-long arc.",
         images: [
           {
             src: secondRaceBranches,
@@ -1016,19 +1016,19 @@ export const projectDetails: ProjectDetailData[] = [
         ],
       },
       {
-        heading: "Detailed Walk-Through — The Netflix Drifter",
+        heading: "Detailed Walk-Through: The Netflix Drifter",
         bullets: [
-          "Welcome (trigger: finishes DTS / creates account) — the companion opens with the question that turns passive drama-watching into a choice: “Which driver's story stuck with you?”",
-          "Find your driver — from that answer the AI builds a personalised “follow this driver” feed; if they're unsure, a two-tap quiz (“more underdog-grinding-up, or champion-defending-the-throne?”) routes them to a driver whose arc fits their taste",
-          "Pre-race primer — a 3-minute primer framed entirely around their driver's season storyline. No jargon. One sentence on “the single battle to watch this weekend”",
-          "Live-race companion — during the race the companion surfaces that driver's key moments and translates the jargon in plain language in real time: “That pit stop just cost him two places — here's why, and here's how he gets them back”",
-          "Post-race re-engagement — a narrative recap (“Here's what today means for your driver's season”) plus a plain-language standings impact, framed as the next chapter, not a results table",
-          "Countdown bridge — counts down to the next race and drips one or two story beats across the two-week gap so the momentum doesn't die in the silence",
+          "Welcome (trigger: finishes DTS / creates account): the companion opens with the question that turns passive drama-watching into a choice: “Which driver's story stuck with you?”",
+          "Find your driver: from that answer the AI builds a personalised “follow this driver” feed; if they're unsure, a two-tap quiz (“more underdog-grinding-up, or champion-defending-the-throne?”) routes them to a driver whose arc fits their taste",
+          "Pre-race primer: a 3-minute primer framed entirely around their driver's season storyline. No jargon. One sentence on “the single battle to watch this weekend”",
+          "Live-race companion: during the race the companion surfaces that driver's key moments and translates the jargon in plain language in real time: “That pit stop just cost him two places, here's why, and here's how he gets them back”",
+          "Post-race re-engagement: a narrative recap (“Here's what today means for your driver's season”) plus a plain-language standings impact, framed as the next chapter, not a results table",
+          "Countdown bridge: counts down to the next race and drips one or two story beats across the two-week gap so the momentum doesn't die in the silence",
         ],
       },
       {
-        heading: "The AI Layer — What AI Does",
-        body: "AI is not doing everything — it's doing the things it's reliably good at: routing, scoring, and assembling from data at scale, deciding who gets what, when.",
+        heading: "The AI Layer: What AI Does",
+        body: "AI is not doing everything, it's doing the things it's reliably good at: routing, scoring, and assembling from data at scale, deciding who gets what, when.",
         bullets: [
           "Classifies segment from the free-text onboarding answer",
           "Scores churn risk from engagement-decay signals",
@@ -1040,37 +1040,37 @@ export const projectDetails: ProjectDetailData[] = [
       },
       {
         heading: "Where Humans Own the Line",
-        body: "AI is unreliable at brand voice and emotional taste, and an auto-generated cheerful nudge sent minutes after a crash is a real brand risk. So the rule is simple: AI decides who-gets-what-when; humans own the voice and the editorial spine. Drawing that line on purpose — rather than letting AI write unsupervised — is the point.",
+        body: "AI is unreliable at brand voice and emotional taste, and an auto-generated cheerful nudge sent minutes after a crash is a real brand risk. So the rule is simple: AI decides who-gets-what-when; humans own the voice and the editorial spine. Drawing that line on purpose, rather than letting AI write unsupervised, is the point.",
         bullets: [
           "Brand voice and tone guardrails (“a friend catching you up, not a brand”)",
           "The emotional framing templates the AI fills",
           "Editorial judgment on which storylines to elevate",
-          "Anything touching sensitive moments — crashes, injuries, controversy",
+          "Anything touching sensitive moments: crashes, injuries, controversy",
         ],
       },
       {
-        heading: "Sample Assets — The Netflix Drifter",
-        body: "Every asset is anchored to a specific driver the fan chose, never to “F1” in the abstract — because the diagnosis says the missing ingredient is emotional stake, not information. (Bracketed fields are populated by the AI from live fan and race data.)",
+        heading: "Sample Assets: The Netflix Drifter",
+        body: "Every asset is anchored to a specific driver the fan chose, never to “F1” in the abstract, because the diagnosis says the missing ingredient is emotional stake, not information. (Bracketed fields are populated by the AI from live fan and race data.)",
         bullets: [
-          "Welcome — “Loved the chaos of the show? The real thing is even better — and it's happening live every other Sunday. First, one question: of everyone you just watched, whose story stuck with you?”",
-          "Find your driver — “Pick your guy. We'll build everything around them — when they race, what's at stake, and the moments worth watching. Not sure yet? Two quick taps and we'll match you with a driver whose season you won't be able to look away from.”",
-          "Pre-race primer (illustrative render) — “This weekend in Montreal, here's the one thing to watch: your driver is one strong result away from flipping a season that's been quietly slipping. Keep an eye on his battle with the teammate he's been measured against all year — beat him here and the whole narrative changes. Lights out is 8pm your time. We'll be right here, calling out the moments that matter so you never feel lost.”",
-          "Winback nudge (churn-risk fan, friend-not-brand tone) — “Haven't seen you since Monaco — a lot's happened. Your driver had a rough one, bounced back, and now there's a genuine fight brewing for the weekend. Want the 90-second catch-up before lights out?”",
+          "Welcome: “Loved the chaos of the show? The real thing is even better, and it's happening live every other Sunday. First, one question: of everyone you just watched, whose story stuck with you?”",
+          "Find your driver: “Pick your guy. We'll build everything around them, when they race, what's at stake, and the moments worth watching. Not sure yet? Two quick taps and we'll match you with a driver whose season you won't be able to look away from.”",
+          "Pre-race primer (illustrative render): “This weekend in Montreal, here's the one thing to watch: your driver is one strong result away from flipping a season that's been quietly slipping. Keep an eye on his battle with the teammate he's been measured against all year, beat him here and the whole narrative changes. Lights out is 8pm your time. We'll be right here, calling out the moments that matter so you never feel lost.”",
+          "Winback nudge (churn-risk fan, friend-not-brand tone): “Haven't seen you since Monaco, a lot's happened. Your driver had a rough one, bounced back, and now there's a genuine fight brewing for the weekend. Want the 90-second catch-up before lights out?”",
         ],
       },
       {
         heading: "What I'd Test First",
         bullets: [
-          "Experiment — the “find your driver” nudge in onboarding",
-          "Hypothesis — new fans who name a driver to root for within their first session convert to a second race at a materially higher rate than those who don't",
-          "Metric — second-race watch rate within 30 days, split by “named a driver in session 1 (yes / no)”",
-          "Design — A/B the onboarding flow; control gets a generic welcome, variant gets the driver-naming nudge plus the personalised feed",
-          "Why first — it's the cheapest intervention that targets the single biggest churn driver (no emotional stake), it's cleanly measurable, and it gates the value of everything downstream. If it moves the metric, the rest of the system is justified; if it doesn't, the thesis needs rethinking before anything else gets built",
+          "Experiment: the “find your driver” nudge in onboarding",
+          "Hypothesis: new fans who name a driver to root for within their first session convert to a second race at a materially higher rate than those who don't",
+          "Metric: second-race watch rate within 30 days, split by “named a driver in session 1 (yes / no)”",
+          "Design: A/B the onboarding flow; control gets a generic welcome, variant gets the driver-naming nudge plus the personalised feed",
+          "Why first: it's the cheapest intervention that targets the single biggest churn driver (no emotional stake), it's cleanly measurable, and it gates the value of everything downstream. If it moves the metric, the rest of the system is justified; if it doesn't, the thesis needs rethinking before anything else gets built",
         ],
       },
       {
         heading: "What I Deliberately Left Out",
-        body: "I didn't touch acquisition or merch/ticketing expansion. Acquisition is already working — adding to it is solving a solved problem. Expansion is a problem you earn the right to solve only after retention works: selling a race ticket or a team cap to a fan who churns after one race is just filling a leaky bucket faster. Fix the second-race problem first, and every downstream revenue line gets healthier on its own.",
+        body: "I didn't touch acquisition or merch/ticketing expansion. Acquisition is already working, adding to it is solving a solved problem. Expansion is a problem you earn the right to solve only after retention works: selling a race ticket or a team cap to a fan who churns after one race is just filling a leaky bucket faster. Fix the second-race problem first, and every downstream revenue line gets healthier on its own.",
       },
       {
         heading: "Explore",
@@ -1092,11 +1092,11 @@ export const projectDetails: ProjectDetailData[] = [
     category: "Social Media",
     year: "2025",
     description:
-      "Managed and executed Instagram content strategies for multiple brands — end-to-end planning of reels and static posts across sustainability, finance, and nutrition.",
+      "Managed and executed Instagram content strategies for multiple brands, end-to-end planning of reels and static posts across sustainability, finance, and nutrition.",
     metric: { value: "4", label: "Content Tracks" },
     tags: ["Reels", "On-Camera", "Carousels", "Page Management"],
     details:
-      "Responsibilities included content research, scriptwriting, on-camera presentation, shooting coordination, editing guidance, and performance-driven optimisation across brand accounts in sustainability, finance, and nutrition — with a focus on audience engagement, consistency, and platform-specific best practices.",
+      "Responsibilities included content research, scriptwriting, on-camera presentation, shooting coordination, editing guidance, and performance-driven optimisation across brand accounts in sustainability, finance, and nutrition, with a focus on audience engagement, consistency, and platform-specific best practices.",
     cardImage: instagramHero,
     sections: [
       {
@@ -1108,17 +1108,17 @@ export const projectDetails: ProjectDetailData[] = [
         body: "Click into any track to see the live posts and reels.",
         links: [
           {
-            label: "Instagram Reels — On-Camera Content",
+            label: "Instagram Reels: On-Camera Content",
             to: "/projects/instagram-on-camera",
             note: "Scriptwriter, On-Camera Talent · 14 reels",
           },
           {
-            label: "Instagram Reels — Script & Shoot",
+            label: "Instagram Reels: Script & Shoot",
             to: "/projects/instagram-script-shoot",
             note: "Scriptwriter, Creator · 9 reels",
           },
           {
-            label: "Instagram — Research & Carousels",
+            label: "Instagram: Research & Carousels",
             to: "/projects/instagram-research-carousels",
             note: "Research, Content · 6 posts",
           },
@@ -1152,24 +1152,24 @@ export const projectDetails: ProjectDetailData[] = [
       {
         heading: "Script, Shoot & On-Camera Talent",
         links: [
-          { label: "Reel — DATTi_ByZ7U", href: "https://www.instagram.com/p/DATTi_ByZ7U/" },
-          { label: "Reel — DAbXQK7SBwQ", href: "https://www.instagram.com/p/DAbXQK7SBwQ/" },
-          { label: "Reel — DAgPlPvyN3f", href: "https://www.instagram.com/p/DAgPlPvyN3f/" },
-          { label: "Reel — DAppI21SJMw", href: "https://www.instagram.com/p/DAppI21SJMw/" },
-          { label: "Reel — DADQeLpS2-k", href: "https://www.instagram.com/p/DADQeLpS2-k/" },
+          { label: "Reel: DATTi_ByZ7U", href: "https://www.instagram.com/p/DATTi_ByZ7U/" },
+          { label: "Reel: DAbXQK7SBwQ", href: "https://www.instagram.com/p/DAbXQK7SBwQ/" },
+          { label: "Reel: DAgPlPvyN3f", href: "https://www.instagram.com/p/DAgPlPvyN3f/" },
+          { label: "Reel: DAppI21SJMw", href: "https://www.instagram.com/p/DAppI21SJMw/" },
+          { label: "Reel: DADQeLpS2-k", href: "https://www.instagram.com/p/DADQeLpS2-k/" },
         ],
       },
       {
         heading: "Script & On-Camera Talent",
         links: [
-          { label: "Reel — C4vJ8C6yglv", href: "https://www.instagram.com/reel/C4vJ8C6yglv/" },
-          { label: "Reel — C3fbBd4PvI3", href: "https://www.instagram.com/reel/C3fbBd4PvI3/" },
-          { label: "Reel — C3Xzf1wPueO", href: "https://www.instagram.com/reel/C3Xzf1wPueO/" },
-          { label: "Reel — C3VP3TKvwc1", href: "https://www.instagram.com/reel/C3VP3TKvwc1/" },
-          { label: "Reel — C3sLBPsyrvP", href: "https://www.instagram.com/reel/C3sLBPsyrvP/" },
-          { label: "Reel — C4IpGbxiq5n", href: "https://www.instagram.com/reel/C4IpGbxiq5n/" },
-          { label: "Reel — CzfsxZvShZ6", href: "https://www.instagram.com/reel/CzfsxZvShZ6/" },
-          { label: "Reel — C0os_48SVEN", href: "https://www.instagram.com/reel/C0os_48SVEN/" },
+          { label: "Reel: C4vJ8C6yglv", href: "https://www.instagram.com/reel/C4vJ8C6yglv/" },
+          { label: "Reel: C3fbBd4PvI3", href: "https://www.instagram.com/reel/C3fbBd4PvI3/" },
+          { label: "Reel: C3Xzf1wPueO", href: "https://www.instagram.com/reel/C3Xzf1wPueO/" },
+          { label: "Reel: C3VP3TKvwc1", href: "https://www.instagram.com/reel/C3VP3TKvwc1/" },
+          { label: "Reel: C3sLBPsyrvP", href: "https://www.instagram.com/reel/C3sLBPsyrvP/" },
+          { label: "Reel: C4IpGbxiq5n", href: "https://www.instagram.com/reel/C4IpGbxiq5n/" },
+          { label: "Reel: CzfsxZvShZ6", href: "https://www.instagram.com/reel/CzfsxZvShZ6/" },
+          { label: "Reel: C0os_48SVEN", href: "https://www.instagram.com/reel/C0os_48SVEN/" },
         ],
       },
     ],
@@ -1180,7 +1180,7 @@ export const projectDetails: ProjectDetailData[] = [
     category: "Social Media · Instagram",
     year: "2024–2025",
     description:
-      "Reels where I owned the script and shoot — concept to camera — without appearing on screen.",
+      "Reels where I owned the script and shoot, concept to camera, without appearing on screen.",
     metric: { value: "9", label: "Reels" },
     tags: ["Scriptwriting", "Direction", "Shoot"],
     details:
@@ -1193,25 +1193,25 @@ export const projectDetails: ProjectDetailData[] = [
       {
         heading: "Script & Shoot",
         links: [
-          { label: "Reel — DA0v1qIy3ag", href: "https://www.instagram.com/p/DA0v1qIy3ag/" },
-          { label: "Reel — DBQ_wfaSdNc", href: "https://www.instagram.com/p/DBQ_wfaSdNc/" },
-          { label: "Reel — DBYDxP_SL_0", href: "https://www.instagram.com/p/DBYDxP_SL_0/" },
-          { label: "Reel — DByotVwSYhE", href: "https://www.instagram.com/p/DByotVwSYhE/" },
-          { label: "Reel — DCEjU2_SPod", href: "https://www.instagram.com/p/DCEjU2_SPod/" },
-          { label: "Reel — C5u7AH2SRMW", href: "https://www.instagram.com/reel/C5u7AH2SRMW/" },
+          { label: "Reel: DA0v1qIy3ag", href: "https://www.instagram.com/p/DA0v1qIy3ag/" },
+          { label: "Reel: DBQ_wfaSdNc", href: "https://www.instagram.com/p/DBQ_wfaSdNc/" },
+          { label: "Reel: DBYDxP_SL_0", href: "https://www.instagram.com/p/DBYDxP_SL_0/" },
+          { label: "Reel: DByotVwSYhE", href: "https://www.instagram.com/p/DByotVwSYhE/" },
+          { label: "Reel: DCEjU2_SPod", href: "https://www.instagram.com/p/DCEjU2_SPod/" },
+          { label: "Reel: C5u7AH2SRMW", href: "https://www.instagram.com/reel/C5u7AH2SRMW/" },
         ],
       },
       {
         heading: "Edit Cues",
         links: [
-          { label: "Reel — C038-HZyPMv", href: "https://www.instagram.com/reel/C038-HZyPMv/" },
+          { label: "Reel: C038-HZyPMv", href: "https://www.instagram.com/reel/C038-HZyPMv/" },
         ],
       },
       {
         heading: "Concept & Script QC (Feb–Aug 2025)",
         links: [
           {
-            label: "@ryan_nutrition_coach — reel concepts & script QC",
+            label: "@ryan_nutrition_coach, reel concepts & script QC",
             href: "https://www.instagram.com/ryan_nutrition_coach/",
           },
         ],
@@ -1237,12 +1237,12 @@ export const projectDetails: ProjectDetailData[] = [
       {
         heading: "Research & Carousel Content",
         links: [
-          { label: "Carousel — C4pXzSUqKqH", href: "https://www.instagram.com/p/C4pXzSUqKqH/", note: "Research and content" },
-          { label: "Carousel — C09K5UJytgk", href: "https://www.instagram.com/p/C09K5UJytgk/", note: "Research and content" },
-          { label: "Post — Cz6MBYZSfKN", href: "https://www.instagram.com/p/Cz6MBYZSfKN/", note: "Content research" },
-          { label: "Carousel — Cz3pz-SS5Ry", href: "https://www.instagram.com/p/Cz3pz-SS5Ry/", note: "Carousel content & research" },
-          { label: "Carousel — Czofgq3S52k", href: "https://www.instagram.com/p/Czofgq3S52k/", note: "Carousel content & research" },
-          { label: "Reel — CzQOhv9STbt", href: "https://www.instagram.com/reel/CzQOhv9STbt/", note: "Content" },
+          { label: "Carousel: C4pXzSUqKqH", href: "https://www.instagram.com/p/C4pXzSUqKqH/", note: "Research and content" },
+          { label: "Carousel: C09K5UJytgk", href: "https://www.instagram.com/p/C09K5UJytgk/", note: "Research and content" },
+          { label: "Post: Cz6MBYZSfKN", href: "https://www.instagram.com/p/Cz6MBYZSfKN/", note: "Content research" },
+          { label: "Carousel: Cz3pz-SS5Ry", href: "https://www.instagram.com/p/Cz3pz-SS5Ry/", note: "Carousel content & research" },
+          { label: "Carousel: Czofgq3S52k", href: "https://www.instagram.com/p/Czofgq3S52k/", note: "Carousel content & research" },
+          { label: "Reel: CzQOhv9STbt", href: "https://www.instagram.com/reel/CzQOhv9STbt/", note: "Content" },
         ],
       },
     ],
@@ -1279,7 +1279,7 @@ export const projectDetails: ProjectDetailData[] = [
           {
             label: "@the.grey.network",
             href: "https://www.instagram.com/the.grey.network/",
-            note: "University account — 1-week competition; designed and managed the page",
+            note: "University account: 1-week competition; designed and managed the page",
           },
           {
             label: "@stackwealth.in",
@@ -1301,7 +1301,7 @@ export const projectDetails: ProjectDetailData[] = [
     category: "Social Media",
     year: "2024–2025",
     description:
-      "Planned and executed LinkedIn content strategies for brand and personal profiles — ideation, copywriting, creative coordination, scheduling, and lead-gen ad campaigns.",
+      "Planned and executed LinkedIn content strategies for brand and personal profiles, ideation, copywriting, creative coordination, scheduling, and lead-gen ad campaigns.",
     metric: { value: "3", label: "Profiles Managed" },
     tags: ["Content Strategy", "Lead Gen Ads", "Newsletters", "Thought Leadership"],
     details:
@@ -1316,17 +1316,17 @@ export const projectDetails: ProjectDetailData[] = [
         heading: "Profiles & Work",
         links: [
           {
-            label: "Sustainology — Company Page",
+            label: "Sustainology: Company Page",
             href: "https://www.linkedin.com/company/sustainology/posts/?feedView=all",
             note: "Managed page; designed creatives to company template; led content research & writing; ran LinkedIn Ads that generated leads converting to meetings.",
           },
           {
-            label: "Treetology — Company Page",
+            label: "Treetology: Company Page",
             href: "https://www.linkedin.com/company/treetology/posts/?feedView=all",
             note: "Ideated content for this page.",
           },
           {
-            label: "Ryan Fernando — Personal Profile",
+            label: "Ryan Fernando: Personal Profile",
             href: "https://www.linkedin.com/in/ryanfernando/",
             note: "Ideated content, worked on strategy, and wrote newsletters.",
           },
@@ -1340,7 +1340,7 @@ export const projectDetails: ProjectDetailData[] = [
     category: "Social Media",
     year: "2024–2025",
     description:
-      "Static and video content for Facebook pages aligned to communication goals for Celebrity Nutritionist Ryan Fernando — built to generate organic leads.",
+      "Static and video content for Facebook pages aligned to communication goals for Celebrity Nutritionist Ryan Fernando, built to generate organic leads.",
     metric: { value: "2", label: "Pages" },
     tags: ["Content Creation", "Video", "Organic Leads", "Quality Control"],
     details:
@@ -1355,12 +1355,12 @@ export const projectDetails: ProjectDetailData[] = [
         heading: "Pages",
         links: [
           {
-            label: "Ryan Fernando — Facebook Page",
+            label: "Ryan Fernando: Facebook Page",
             href: "https://www.facebook.com/ryanfernando/",
             note: "Static + video content; layout and visual consistency.",
           },
           {
-            label: "Celebrity Nutritionist Ryan — Facebook Page",
+            label: "Celebrity Nutritionist Ryan: Facebook Page",
             href: "https://www.facebook.com/celebritynutritionistryan/?locale=pt_PT",
             note: "Content creation and quality checks for organic lead generation.",
           },
@@ -1376,11 +1376,11 @@ export const projectDetails: ProjectDetailData[] = [
     category: "SEO",
     year: "2023–2025",
     description:
-      "On-page SEO and content optimisation across sustainability, finance, and nutrition brands — keyword research, SEO blogs, metadata, and schema markup.",
+      "On-page SEO and content optimisation across sustainability, finance, and nutrition brands, keyword research, SEO blogs, metadata, and schema markup.",
     metric: { value: "7", label: "Web Properties" },
     tags: ["On-Page SEO", "Schema Markup", "SEO Blogs", "Metadata"],
     details:
-      "Executed on-page SEO and content optimisation initiatives across multiple websites — keyword research, SEO-friendly blog writing, metadata optimisation, and schema markup implementation. Improved content structure, search visibility, and website quality in alignment with search engine best practices. Strong emphasis on data-driven content and long-form SEO strategy.",
+      "Executed on-page SEO and content optimisation initiatives across multiple websites, keyword research, SEO-friendly blog writing, metadata optimisation, and schema markup implementation. Improved content structure, search visibility, and website quality in alignment with search engine best practices. Strong emphasis on data-driven content and long-form SEO strategy.",
     cardImage: seoExpertiseHero,
     sections: [
       {
@@ -1437,11 +1437,11 @@ export const projectDetails: ProjectDetailData[] = [
     category: "Public Relations",
     year: "2022–2024",
     description:
-      "Public relations and stakeholder engagement — guest outreach, media coordination, and event communications across conferences and institutional events.",
+      "Public relations and stakeholder engagement: guest outreach, media coordination, and event communications across conferences and institutional events.",
     metric: { value: "8", label: "High-Profile Guests" },
     tags: ["Guest Relations", "Media Coordination", "Event PR", "Outreach"],
     details:
-      "Supported PR and stakeholder engagement initiatives through guest outreach, media coordination, and event-related communications. Managed end-to-end guest relations — contact sourcing, outreach, follow-ups, and confirmations for high-profile speakers and industry professionals. Experience spans PR support for conferences and institutional events with a focus on relationship management, coordination, and brand representation.",
+      "Supported PR and stakeholder engagement initiatives through guest outreach, media coordination, and event-related communications. Managed end-to-end guest relations, contact sourcing, outreach, follow-ups, and confirmations for high-profile speakers and industry professionals. Experience spans PR support for conferences and institutional events with a focus on relationship management, coordination, and brand representation.",
     cardImage: prExpertiseHero,
     sections: [
       {
@@ -1449,7 +1449,7 @@ export const projectDetails: ProjectDetailData[] = [
         body: "Supported public relations and stakeholder engagement initiatives through guest outreach, media coordination, and event-related communications. Managed end-to-end guest relations, including contact sourcing, outreach, follow-ups, and confirmation for high-profile speakers and industry professionals. Experience includes PR support for conferences and institutional events, with a focus on relationship management, coordination, and brand representation.",
       },
       {
-        heading: "Christ University — Guest Relations Head",
+        heading: "Christ University: Guest Relations Head",
         body: "Sourced contacts and led the conversion process to confirm the following high-profile guests:",
         links: [
           {
@@ -1460,7 +1460,7 @@ export const projectDetails: ProjectDetailData[] = [
           {
             label: "Gurmeet Singh",
             href: "https://www.instagram.com/gurmmeetsingh/?hl=en",
-            note: "Director — Mirzapur (Indian film).",
+            note: "Director: Mirzapur (Indian film).",
           },
           {
             label: "Avanti Nagral",
@@ -1480,11 +1480,11 @@ export const projectDetails: ProjectDetailData[] = [
           {
             label: "Nagarjun Dwarakanath",
             href: "https://in.linkedin.com/in/nagarjun-dwarakanath-64b04a25",
-            note: "India Today — Editor and Pilot.",
+            note: "India Today: Editor and Pilot.",
           },
           {
             label: "DP Satish",
-            note: "Group Editorial Advisor, South — Network18.",
+            note: "Group Editorial Advisor, South, Network18.",
           },
           {
             label: "Moon",
@@ -1494,10 +1494,10 @@ export const projectDetails: ProjectDetailData[] = [
         ],
       },
       {
-        heading: "EVUpdateMedia — Conference Anchoring & PR",
+        heading: "EVUpdateMedia: Conference Anchoring & PR",
         bullets: [
           "Hosted/anchored 3 EV conferences: Maharashtra, Karnataka, and Tamil Nadu.",
-          "Maharashtra Conference — PR handled end-to-end.",
+          "Maharashtra Conference: PR handled end-to-end.",
         ],
       },
     ],
