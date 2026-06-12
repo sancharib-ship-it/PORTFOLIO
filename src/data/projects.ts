@@ -11,6 +11,9 @@ import seoExpertiseHero from "@/assets/seo-expertise-hero.png";
 import prExpertiseHero from "@/assets/pr-expertise-hero.png";
 import rcCeltaHero from "@/assets/rc-celta/rc-celta-hero.png";
 import rcCeltaN8nWorkflow from "@/assets/rc-celta/n8n-workflow.png";
+import secondRaceHero from "@/assets/second-race/second-race-hero.png";
+import secondRaceJourney from "@/assets/second-race/current-vs-redesigned-journey.png";
+import secondRaceBranches from "@/assets/second-race/segment-branch-diagram.png";
 
 import strike01 from "@/assets/strike/01-cam-strike.jpg";
 import strike02 from "@/assets/strike/02-box-textured.jpg";
@@ -887,6 +890,196 @@ export const projectDetails: ProjectDetailData[] = [
           "Strategic awareness — competitive position and assets to build on",
           "Visual craft — full Figma system: colour, components, typography, states",
           "Communication — weeks of work synthesised into a readable narrative",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "the-second-race",
+    title: "The Second Race: An AI-Driven Lifecycle System for New F1 Fans",
+    category: "Marketing Strategy",
+    year: "2026",
+    cardImage: secondRaceHero,
+    description:
+      "An AI lifecycle system that turns curious first-race F1 viewers into committed fans.",
+    tags: [
+      "Growth Strategy",
+      "Lifecycle & Retention",
+      "AI Product",
+      "Personalisation",
+      "Prototype",
+    ],
+    details:
+      "F1 has solved acquisition but not the second race. Three AI-personalised lifecycle journeys — detected at signup and delivered through F1's existing Agentforce fan companion — built to turn a curious first-race viewer into a fan with an emotional stake who watches a second race within 30 days.",
+    link: "https://sancharib-ship-it.github.io/F1-Lifecycle-System/",
+    externalLink: {
+      label: "Open the prototype",
+      url: "https://sancharib-ship-it.github.io/F1-Lifecycle-System/",
+    },
+    heroImage: {
+      src: secondRaceHero,
+      alt: "The Second Race — an AI-driven fan lifecycle system for new F1 fans",
+      caption: "Close the gap. Win a lifelong fan.",
+    },
+    sections: [
+      {
+        heading: "TL;DR",
+        bullets: [
+          "Diagnosis — F1 has solved acquisition but not the second race. The new fans arriving through Drive to Survive, TikTok, F1 Academy, and F1 The Movie are the youngest, most casual, and most fragile audience the sport has ever had — most have no favourite driver and no reason to come back in two weeks.",
+          "The system — Three AI-personalised lifecycle journeys, detected at signup and delivered through F1's existing Agentforce fan companion. Each journey does one job in 30 days: turn a curious first-race viewer into a fan with an emotional stake who watches a second race unprompted.",
+          "Expected impact — Higher new-fan → retained-fan conversion, measured by second-race watch rate within 30 days.",
+        ],
+      },
+      {
+        heading: "The Growth Paradox",
+        body: "F1's acquisition engine is the best in sports. Drive to Survive, short-form social, F1 Academy, and a $630M+ blockbuster have pulled in a generational wave: a global fanbase of 827 million, 43% of it under 35. Three in four new fans are women, most younger and newer to the sport; nearly half of all Gen Z fans are women, and in the US 70% of Gen Z fans engage with F1 content daily. The paradox is that this success is the retention risk — the fan who arrived via a 10-part Netflix character drama or a 30-second pit-stop clip has deep familiarity with personalities and almost zero literacy in the actual race product. F1 filled the top of the funnel faster than it built the floor underneath it. The specific hole is the handoff: a new fan lands on a live broadcast with no driver to root for, a jargon wall (tyre deltas, undercuts, DRS trains), and then a two-week gap that quietly kills whatever momentum they had. This project designs the system that fills that gap.",
+      },
+      {
+        heading: "Activation, Defined",
+        body: "A new fan is activated when (1) they can name a driver or team they're rooting for, and (2) they watch a second race — live or full session — within 30 days of their first. Both halves are load-bearing: a favourite with no second watch is a poster on a wall; a second watch with no favourite is a coin flip that won't survive a boring race.",
+      },
+      {
+        heading: "The Current New-Fan Journey",
+        body: "Everything upstream works; the system has no answer for what happens after the first race and before the second. The diagnosis lives in the third row.",
+        table: {
+          columns: ["Stage", "What happens", "What F1 provides today"],
+          rows: [
+            ["Trigger", "DTS, a viral clip, a friend, F1 The Movie", "Excellent — this is the solved part"],
+            ["First race watched", "New fan tunes into one live race", "A broadcast built for existing fans; no newcomer mode"],
+            ["The gap (the whole problem)", "Two weeks pass. No primer, no driver, no narrative thread", "Almost nothing. This is the unsupported handoff"],
+            ["Second race?", "A few return; most churn", "No re-engagement designed around a newcomer's fragile momentum"],
+          ],
+        },
+        images: [
+          {
+            src: secondRaceJourney,
+            alt: "The new-fan journey today versus the redesigned AI-personalised lifecycle",
+            caption: "The second-race gap, and the system that fills it",
+          },
+        ],
+      },
+      {
+        heading: "The Three New-Fan Segments",
+        body: "Real, data-backed entry points — not generic personas.",
+        table: {
+          columns: [
+            "Segment",
+            "Entry point",
+            "What hooks them",
+            "Biggest churn risk",
+            "The “aha” moment",
+          ],
+          rows: [
+            [
+              "The Netflix Drifter",
+              "Drive to Survive / F1 The Movie",
+              "Personalities, rivalries, narrative arcs",
+              "The live product feels like a different show than the one they fell in love with",
+              "A driver they care about is in a live on-track battle and they understand the stakes",
+            ],
+            [
+              "The Gen Z Social Fan",
+              "TikTok, Reels, YouTube Shorts",
+              "Short-form clips, memes, driver fashion, paddock culture",
+              "The leap from a 30-second clip to a 90-minute live race is enormous",
+              "A clip they already loved turns out to be the climax of a live story they watched unfold",
+            ],
+            [
+              "The F1 Academy Newcomer",
+              "F1 Academy / the female-fan wave",
+              "Representation, driver-development stories, mission, accessibility",
+              "The bridge from F1 Academy to the main championship is never built",
+              "Discovering the main grid carries the same human stories that drew them to F1 Academy",
+            ],
+          ],
+        },
+      },
+      {
+        heading: "How a Fan Gets Detected",
+        body: "The system assigns a segment at signup using three signals, then refines it. This rides on infrastructure that already exists — F1's Agentforce fan companion already handles ~80% of fan queries autonomously by drawing on 100+ trusted F1 sources. We extend that same agent from “explains the 2026 regs” to “runs personalised onboarding.”",
+        bullets: [
+          "Signup source — F1.com account origin, F1 TV trial, F1 Academy email list, app-install referrer",
+          "One-question onboarding — a single free-text prompt: “What brought you to F1?”",
+          "First-session behaviour — full race watched vs. clips-only; session depth; where they drop off",
+          "The AI's job at this layer: classify the free-text answer into a segment, score churn risk from engagement decay (days since last session × session depth), and select the next-best message",
+        ],
+      },
+      {
+        heading: "The Three Branched Flows",
+        body: "Every flow follows the same spine — welcome → get-a-favourite-driver → pre-race primer → live-race companion → post-race re-engagement → countdown bridge — but the content and emotional hook differ by segment. Gen Z Social Fan: the welcome riffs on a clip they already engaged with, the primer is vertical short-form video not text, and the live companion clips key moments in real time so the race feels like a live feed. F1 Academy Newcomer: the welcome explicitly bridges the two worlds (“you followed an Academy driver's rise — here's who that maps to on the main grid”), the primer leads with human and development stories, and the post-race ties the result back to the season-long arc.",
+        images: [
+          {
+            src: secondRaceBranches,
+            alt: "The three branched lifecycle journeys fanning out from the first race watched toward a second race",
+            caption: "One activation moment, three branched journeys",
+          },
+        ],
+      },
+      {
+        heading: "Detailed Walk-Through — The Netflix Drifter",
+        bullets: [
+          "Welcome (trigger: finishes DTS / creates account) — the companion opens with the question that turns passive drama-watching into a choice: “Which driver's story stuck with you?”",
+          "Find your driver — from that answer the AI builds a personalised “follow this driver” feed; if they're unsure, a two-tap quiz (“more underdog-grinding-up, or champion-defending-the-throne?”) routes them to a driver whose arc fits their taste",
+          "Pre-race primer — a 3-minute primer framed entirely around their driver's season storyline. No jargon. One sentence on “the single battle to watch this weekend”",
+          "Live-race companion — during the race the companion surfaces that driver's key moments and translates the jargon in plain language in real time: “That pit stop just cost him two places — here's why, and here's how he gets them back”",
+          "Post-race re-engagement — a narrative recap (“Here's what today means for your driver's season”) plus a plain-language standings impact, framed as the next chapter, not a results table",
+          "Countdown bridge — counts down to the next race and drips one or two story beats across the two-week gap so the momentum doesn't die in the silence",
+        ],
+      },
+      {
+        heading: "The AI Layer — What AI Does",
+        body: "AI is not doing everything — it's doing the things it's reliably good at: routing, scoring, and assembling from data at scale, deciding who gets what, when.",
+        bullets: [
+          "Classifies segment from the free-text onboarding answer",
+          "Scores churn risk from engagement-decay signals",
+          "Selects next-best-action and timing for each fan",
+          "Personalises the driver feed and picks which storylines to surface",
+          "Assembles primers and recaps from structured race data (standings, gaps, pit data)",
+          "Generates copy variants for human selection",
+        ],
+      },
+      {
+        heading: "Where Humans Own the Line",
+        body: "AI is unreliable at brand voice and emotional taste, and an auto-generated cheerful nudge sent minutes after a crash is a real brand risk. So the rule is simple: AI decides who-gets-what-when; humans own the voice and the editorial spine. Drawing that line on purpose — rather than letting AI write unsupervised — is the point.",
+        bullets: [
+          "Brand voice and tone guardrails (“a friend catching you up, not a brand”)",
+          "The emotional framing templates the AI fills",
+          "Editorial judgment on which storylines to elevate",
+          "Anything touching sensitive moments — crashes, injuries, controversy",
+        ],
+      },
+      {
+        heading: "Sample Assets — The Netflix Drifter",
+        body: "Every asset is anchored to a specific driver the fan chose, never to “F1” in the abstract — because the diagnosis says the missing ingredient is emotional stake, not information. (Bracketed fields are populated by the AI from live fan and race data.)",
+        bullets: [
+          "Welcome — “Loved the chaos of the show? The real thing is even better — and it's happening live every other Sunday. First, one question: of everyone you just watched, whose story stuck with you?”",
+          "Find your driver — “Pick your guy. We'll build everything around them — when they race, what's at stake, and the moments worth watching. Not sure yet? Two quick taps and we'll match you with a driver whose season you won't be able to look away from.”",
+          "Pre-race primer (illustrative render) — “This weekend in Montreal, here's the one thing to watch: your driver is one strong result away from flipping a season that's been quietly slipping. Keep an eye on his battle with the teammate he's been measured against all year — beat him here and the whole narrative changes. Lights out is 8pm your time. We'll be right here, calling out the moments that matter so you never feel lost.”",
+          "Winback nudge (churn-risk fan, friend-not-brand tone) — “Haven't seen you since Monaco — a lot's happened. Your driver had a rough one, bounced back, and now there's a genuine fight brewing for the weekend. Want the 90-second catch-up before lights out?”",
+        ],
+      },
+      {
+        heading: "What I'd Test First",
+        bullets: [
+          "Experiment — the “find your driver” nudge in onboarding",
+          "Hypothesis — new fans who name a driver to root for within their first session convert to a second race at a materially higher rate than those who don't",
+          "Metric — second-race watch rate within 30 days, split by “named a driver in session 1 (yes / no)”",
+          "Design — A/B the onboarding flow; control gets a generic welcome, variant gets the driver-naming nudge plus the personalised feed",
+          "Why first — it's the cheapest intervention that targets the single biggest churn driver (no emotional stake), it's cleanly measurable, and it gates the value of everything downstream. If it moves the metric, the rest of the system is justified; if it doesn't, the thesis needs rethinking before anything else gets built",
+        ],
+      },
+      {
+        heading: "What I Deliberately Left Out",
+        body: "I didn't touch acquisition or merch/ticketing expansion. Acquisition is already working — adding to it is solving a solved problem. Expansion is a problem you earn the right to solve only after retention works: selling a race ticket or a team cap to a fan who churns after one race is just filling a leaky bucket faster. Fix the second-race problem first, and every downstream revenue line gets healthier on its own.",
+      },
+      {
+        heading: "Explore",
+        links: [
+          {
+            label: "Open the prototype",
+            href: "https://sancharib-ship-it.github.io/F1-Lifecycle-System/",
+            note: "The interactive F1 new-fan lifecycle system",
+          },
         ],
       },
     ],

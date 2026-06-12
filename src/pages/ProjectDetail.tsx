@@ -57,14 +57,16 @@ const ProjectDetail = () => {
             </p>
 
             <div className="mt-8 flex flex-wrap items-center gap-3">
-              <div className="flex items-baseline gap-2 rounded-lg border border-border bg-card px-4 py-3">
-                <span className="text-2xl font-bold tracking-tight text-cherry">
-                  {project.metric.value}
-                </span>
-                <span className="text-xs font-medium uppercase tracking-[0.14em] text-muted-foreground">
-                  {project.metric.label}
-                </span>
-              </div>
+              {project.metric && (
+                <div className="flex items-baseline gap-2 rounded-lg border border-border bg-card px-4 py-3">
+                  <span className="text-2xl font-bold tracking-tight text-cherry">
+                    {project.metric.value}
+                  </span>
+                  <span className="text-xs font-medium uppercase tracking-[0.14em] text-muted-foreground">
+                    {project.metric.label}
+                  </span>
+                </div>
+              )}
               {project.externalLink && (
                 <a
                   href={project.externalLink.url}

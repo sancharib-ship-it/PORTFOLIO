@@ -5,7 +5,7 @@ export interface Project {
   category: string;
   year: string;
   description: string;
-  metric: { value: string; label: string };
+  metric?: { value: string; label: string };
   tags: string[];
   details: string;
   link?: string;
@@ -100,14 +100,16 @@ export const ProjectCard = ({
             </h3>
           </div>
           {/* Result metric */}
-          <div className="flex shrink-0 flex-col items-end rounded-lg border border-border bg-background px-3 py-2 text-right">
-            <span className="text-lg font-bold leading-none tracking-tight text-cherry md:text-xl">
-              {project.metric.value}
-            </span>
-            <span className="mt-1 text-[10px] font-medium uppercase tracking-[0.14em] text-muted-foreground">
-              {project.metric.label}
-            </span>
-          </div>
+          {project.metric && (
+            <div className="flex shrink-0 flex-col items-end rounded-lg border border-border bg-background px-3 py-2 text-right">
+              <span className="text-lg font-bold leading-none tracking-tight text-cherry md:text-xl">
+                {project.metric.value}
+              </span>
+              <span className="mt-1 text-[10px] font-medium uppercase tracking-[0.14em] text-muted-foreground">
+                {project.metric.label}
+              </span>
+            </div>
+          )}
         </div>
 
         <p className="mt-4 text-sm leading-relaxed text-muted-foreground">

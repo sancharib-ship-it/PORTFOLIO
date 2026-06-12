@@ -46,6 +46,7 @@ const groups: ProjectGroup[] = [
     projects: [
       realBy("starbucks-spain-ecosystem"),
       realBy("practo-care-companion"),
+      realBy("the-second-race"),
     ],
   },
   {

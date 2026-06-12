@@ -46,14 +46,16 @@ export const ProjectCardCompact = ({ project }: { project: Project }) => {
         <h3 className="line-clamp-2 text-base font-bold leading-tight tracking-tight text-beige-soft md:text-lg">
           {project.title}
         </h3>
-        <div className="mt-2 flex items-baseline gap-1.5">
-          <span className="text-sm font-bold text-cherry">
-            {project.metric.value}
-          </span>
-          <span className="text-[10px] font-medium uppercase tracking-[0.12em] text-beige-soft/75">
-            {project.metric.label}
-          </span>
-        </div>
+        {project.metric && (
+          <div className="mt-2 flex items-baseline gap-1.5">
+            <span className="text-sm font-bold text-cherry">
+              {project.metric.value}
+            </span>
+            <span className="text-[10px] font-medium uppercase tracking-[0.12em] text-beige-soft/75">
+              {project.metric.label}
+            </span>
+          </div>
+        )}
         <span className="mt-2 inline-flex items-center gap-1 text-xs font-semibold text-beige-soft opacity-0 transition-opacity duration-300 group-hover:opacity-100">
           View case study
           <span className="transition-transform duration-300 group-hover:translate-x-0.5">
